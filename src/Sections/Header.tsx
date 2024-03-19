@@ -1,5 +1,6 @@
 import { EColors } from "../assets/Util/EColors";
 import { Tooltip } from "antd";
+// import styles from "./Header.module.css";
 
 export default function Header() {
   return (
@@ -9,12 +10,12 @@ export default function Header() {
     >
       <div>
         <div
-          className="text-2xl"
+          className="text-2xl "
           style={{ fontWeight: "600", color: EColors.textGray2 }}
         >
           Hi, my name is
         </div>
-        <div style={{ fontWeight: "600" }} className="text-8xl">
+        <div style={{ fontWeight: "600" }} className="text-8xl ">
           <span>Shawn </span>
           <span style={{ color: EColors.textGray }}> Montgomery</span>
         </div>
