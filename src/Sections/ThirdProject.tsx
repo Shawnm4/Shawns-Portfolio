@@ -1,6 +1,5 @@
 import { Tooltip } from "antd";
 import { EColors } from "../assets/Util/EColors";
-import styles from "./ThirdProject.module.css";
 
 export default function ThirdProject() {
   return (

@@ -1,7 +1,5 @@
 import { Tooltip } from "antd";
 import { EColors } from "../assets/Util/EColors";
-import styles from "./SecondProject.module.css";
-import { Image } from "antd";
 
 export default function SecondProject() {
   return (
@@ -45,11 +43,13 @@ export default function SecondProject() {
             style={{ fontFamily: "Inter" }}
             className="flex ml-32 justify-between     "
           >
-            <div className=" justify-self-end mt-14  ">
-              <video className=" h-3/4 rounded-lg shadow-2xl " controls>
-                <source src="/cryptovidportfolio.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+            <div className="grid grid-cols-1">
+              <div className=" justify-self-end mt-14  ">
+                <video className=" h-3/4 rounded-lg shadow-2xl " controls>
+                  <source src="/cryptovidportfolio.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
             </div>
 
             <div className="w-1/2">
