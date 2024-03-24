@@ -53,12 +53,8 @@ export default function ThirdProject() {
                 everything from start to end. First, I talked with the church
                 leaders to understand what they wanted for their website. Then,
                 I designed a website that looks good and is easy for everyone to
-                use. I built the site with WordPress so the church staff can
-                easily update it by themselves. I added important features like
-                a calendar for events, a blog for church news, and a place for
-                videos or audio of sermons and music. Also, I made sure the
-                website works well on all devices, like smartphones, tablets,
-                and computers.
+                use. Also, I made sure the website works well on all devices,
+                like smartphones, tablets, and computers.
               </div>
               <div className="flex items-end mb-2">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
