@@ -27,19 +27,13 @@ export default function ThirdProject() {
         >
           <div
             style={{ fontFamily: "Inter" }}
-            className="flex ml-32 justify-between   "
+            className="flex ml-32 gap-56 justify-between   "
           >
-            <div className=" justify-self-end mt-14  ">
-              <video className=" h-3/4 rounded-lg shadow-2xl " controls>
-                <source src="/salemportfolio.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
             <div className="w-1/2">
-              <div className="text-6xl font-bold mb-5 mt-14">
+              <div className="text-6xl font-bold mb-5 mt-14 justify-self-end ">
                 Salem Union RZUA Church
               </div>
-              <div className="text-lg mb-5 mr-10">
+              <div className="text-lg mb-5 ">
                 I had the rewarding opportunity to design and develop a website
                 for a local church, aiming to create a digital space that
                 reflects the church's welcoming community and spiritual mission.
@@ -56,11 +50,11 @@ export default function ThirdProject() {
                 use. Also, I made sure the website works well on all devices,
                 like smartphones, tablets, and computers.
               </div>
-              <div className="flex items-end mb-2">
+              <div className="flex items-end mb-2 justify-end ">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
                   <div className="mr-4">Tech Stack Used</div>
                 </div>
-                <div className="flex gap-4">
+                <div className="flex gap-4 ">
                   <Tooltip title="HTML">
                     <figure>
                       <img className="w-10" src="/html.png" alt="htmllogo" />
@@ -97,22 +91,28 @@ export default function ThirdProject() {
                   </Tooltip>
                 </div>
               </div>
-              <div className="mb-2 underline text-xl">
+              <div className="mb-2 underline text-xl text-right">
                 <a
                   href="https://salemunionrzuachurch.vercel.app/"
                   target="_blank"
                 >
-                  &larr; Visit Live Site
+                  Visit Live Site &rarr;
                 </a>
               </div>
-              <div className="underline text-xl">
+              <div className="underline text-xl text-right">
                 <a
                   href=" https://github.com/Shawnm4/salemunion"
                   target="_blank"
                 >
-                  &larr; View Code
+                  Visit Live Site &rarr;
                 </a>
               </div>
+            </div>
+            <div className=" justify-self-end mt-14  ">
+              <video className=" h-3/4 rounded-lg shadow-2xl " controls>
+                <source src="/salemportfolio.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </section>

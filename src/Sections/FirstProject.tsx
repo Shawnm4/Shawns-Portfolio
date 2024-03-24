@@ -53,7 +53,7 @@ export default function FirstProject() {
               the app. This dashboard lets businesses check on their money and
               how well they are doing at any time.
             </div>
-            <div className="flex items-end mb-2">
+            <div className="flex items-end mb-2 justify-end">
               <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
                 <div className="mr-4">Tech Stack Used</div>
               </div>
@@ -112,7 +112,7 @@ export default function FirstProject() {
                 </Tooltip>
               </div>
             </div>
-            <div className="mb-2 underline text-xl">
+            <div className="mb-2 underline text-xl text-right">
               <a
                 href="https://charlie-glass-admin.vercel.app/login"
                 target="_blank"
@@ -120,7 +120,7 @@ export default function FirstProject() {
                 Visit Live Site &rarr;
               </a>
             </div>
-            <div className="underline text-xl">
+            <div className="underline text-xl text-right">
               <a
                 href="https://github.com/nsikan-na/charlie-glass-admin"
                 target="_blank"
