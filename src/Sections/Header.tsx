@@ -28,9 +28,11 @@ export default function Header() {
       </div>
       <div className="flex items-end">
         <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
-          <div className="mr-4">Tech Stack</div>
+          <div style={{ whiteSpace: "nowrap" }} className="mr-3">
+            Tech Stack
+          </div>
         </div>
-        <div className="flex gap-4">
+        <div className="flex gap-4 mr-20">
           <Tooltip title="HTML">
             <figure>
               <img className="w-10" src="/html.png" alt="htmllogo" />
@@ -63,6 +65,21 @@ export default function Header() {
           <Tooltip title="css">
             <figure>
               <img className="w-10" src="/css-3.png" alt="css logo" />
+            </figure>
+          </Tooltip>
+          <Tooltip title="css">
+            <figure>
+              <img className="w-10" src="/tailwind.png" alt="css logo" />
+            </figure>
+          </Tooltip>
+          <Tooltip title="Node.Js">
+            <figure>
+              <img className="w-10" src="/node-js.png" alt="nodejs logo" />
+            </figure>
+          </Tooltip>
+          <Tooltip title="SQL">
+            <figure>
+              <img className="w-10" src="/sql.png" alt="sql logo" />
             </figure>
           </Tooltip>
         </div>
