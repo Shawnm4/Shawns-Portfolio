@@ -46,7 +46,7 @@ export default function SecondProject() {
             <div className="grid grid-cols-1">
               <div className=" justify-self-end mt-14  ">
                 <video className=" h-full rounded-lg shadow-2xl " controls>
-                  <source src="/cryptovidportfolio.mp4" type="video/mp4" />
+                  <source src="/cypto.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
