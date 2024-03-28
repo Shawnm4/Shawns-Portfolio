@@ -1,4 +1,4 @@
-import { EColors } from "../assets/Util/EColors";
+import { EColors } from "../Util/EColors";
 import { Tooltip } from "antd";
 import {
   LinkedinOutlined,
@@ -12,7 +12,7 @@ export default function Header() {
     <>
       <section
         style={{ fontFamily: "Inter" }}
-        className="mt-72 ml-44 flex gap-40"
+        className="mt-72 ml-44 flex justify-between gap-40"
       >
         <div className="drop-shadow-md">
           <div

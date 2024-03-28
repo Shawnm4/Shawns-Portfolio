@@ -1,15 +1,19 @@
-import FirstProject from "./Sections/FirstProject";
-import Header from "./Sections/Header";
-import SecondProject from "./Sections/SecondProject";
-import ThirdProject from "./Sections/ThirdProject";
+import CellPhone from "./CellPhone/CellPhone";
+import Desktop from "./Desktop/Desktop";
+import Tablet from "./Tablet/Tablet";
 
 export default function App() {
   return (
     <>
-      <Header />
-      <FirstProject />
-      <SecondProject />
-      <ThirdProject />
+      <div className="md:hidden">
+        <CellPhone />
+      </div>
+      <div className="hidden 2xl:hidden md:inline-block ">
+        <Tablet />
+      </div>
+      <div className="hidden 2xl:inline">
+        <Desktop />
+      </div>
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { Tooltip } from "antd";
-import { EColors } from "../assets/Util/EColors";
+import { EColors } from "../Util/EColors";
 
 export default function FirstProject() {
   return (
