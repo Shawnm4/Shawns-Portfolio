@@ -55,7 +55,7 @@ export default function SecondProject() {
             <div className="w-1/2">
               <div className="text-6xl font-bold mb-5 mt-8 ">ChainSight</div>
               <div className="text-lg mb-5 mr-10">
-                CryptoPulse was developed to address the need for a
+                ChainSight was developed to address the need for a
                 comprehensive, user-friendly platform that provides real-time
                 insights and analytics on the cryptocurrency market. Aimed at
                 both novice and experienced investors, the app simplifies the

@@ -19,3 +19,27 @@
 .wave .shape-fill {
   fill: #4dabf7;
 }
+
+.githubIcon {
+  transition: transform 0.3s ease;
+}
+
+.githubIcon:hover {
+  transform: scale(2.1);
+}
+
+.linkedinIcon {
+  transition: transform 0.3s ease;
+}
+
+.linkedinIcon:hover {
+  transform: scale(2.1);
+}
+
+.emailIcon {
+  transition: transform 0.3s ease;
+}
+
+.emailIcon:hover {
+  transform: scale(2.1);
+}
