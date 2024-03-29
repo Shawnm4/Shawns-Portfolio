@@ -65,7 +65,7 @@ export default function CellPhoneHeader() {
           Tech Stack
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-10">
         <div className="flex gap-4 p-2">
           <Tooltip title="HTML">
             <figure>
