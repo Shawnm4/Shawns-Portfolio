@@ -8,7 +8,7 @@ export default function App() {
       <div className="md:hidden">
         <CellPhone />
       </div>
-      <div className="hidden 2xl:hidden md:inline-block ">
+      <div className="hidden 2xl:hidden md:inline-block w-full ">
         <Tablet />
       </div>
       <div className="hidden 2xl:inline">
