@@ -19,12 +19,20 @@ export default function CellPhoneFirstProject() {
       </div>
       <div style={{ backgroundColor: EColors.charlieprimary }}>
         <div className="text-4xl font-bold ml-2 mb-5">Charlie Glass Admin</div>
-        <div className="mb-5 underline text-2xl ml-2 font-bold">
+        <div className="mb-2 underline text-2xl ml-2 font-bold">
           <a
             href="https://charlie-glass-admin.vercel.app/login"
             target="_blank"
           >
-            Visit Live Site &darr;
+            Visit Live Site
+          </a>
+        </div>
+        <div className="mb-2 underline text-2xl ml-2  font-bold ">
+          <a
+            href="https://github.com/nsikan-na/charlie-glass-admin"
+            target="_blank"
+          >
+            View Code
           </a>
         </div>
         <div className="w-full flex justify-center   ">
@@ -33,26 +41,20 @@ export default function CellPhoneFirstProject() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="underline text-2xl ml-2 mt-5 font-bold ">
-          <a
-            href="https://github.com/nsikan-na/charlie-glass-admin"
-            target="_blank"
-          >
-            View Code &uarr;
-          </a>
-        </div>
+
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          My colleague and I worked together to create a special web app for a
-          business that need help managing their money. Our main aim was to make
-          a tool that makes it easier to keep an eye on finances and also helps
-          with making and handling quotes and invoices. This app is really
-          important for businesses that want to get better at understanding
-          their finances and working more efficiently. I focused on designing
-          the part of the app that users see and interact with, making sure it
-          was easy and pleasant to use.
+          The goal of this project wat to practice basic CRUD actions. This was
+          my first project for a real client. My colleague and I worked together
+          to create a special web app for a business that need help managing
+          their money. Our main aim was to make a tool that makes it easier to
+          keep an eye on finances and also helps with making and handling quotes
+          and invoices. This app is really important for businesses that want to
+          get better at understanding their finances and working more
+          efficiently. I focused on designing the part of the app that users see
+          and interact with, making sure it was easy and pleasant to use.
         </div>
         <div
           style={{ fontFamily: "Inter" }}

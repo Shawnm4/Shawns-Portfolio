@@ -26,10 +26,30 @@ export default function Header() {
             <span style={{ color: EColors.textGray }}> Montgomery</span>
           </div>
           <div
-            className="text-2xl mt-4 mb-8"
+            className="text-2xl mt-4 "
             style={{ fontWeight: "600", color: EColors.textGray2 }}
           >
             I am a software engineer with a passion for excelling in my field.
+          </div>
+          <div
+            className="text-2xl  "
+            style={{ fontWeight: "600", color: EColors.textGray2 }}
+          >
+            I am currrently attending BrightPoint Community College for a degree
+            in computer science.
+          </div>
+          <div
+            className="text-2xl "
+            style={{ fontWeight: "600", color: EColors.textGray2 }}
+          >
+            Technologies I have experience with include React.js, Typescript,
+            Node.js, and Git.
+          </div>
+          <div
+            className="text-2xl mb-4 "
+            style={{ fontWeight: "600", color: EColors.textGray2 }}
+          >
+            Most importantly, I can adapt to the needs of my team.
           </div>
           <div className="flex justify-center">
             <ul className="flex gap-20 text-4xl cursor-pointer">

@@ -1,5 +1,6 @@
 import { Tooltip } from "antd";
 import { EColors } from "../Util/EColors";
+import { Image } from "antd";
 
 export default function SecondProject() {
   return (
@@ -43,12 +44,33 @@ export default function SecondProject() {
             style={{ fontFamily: "Inter" }}
             className="flex ml-32  gap-56 justify-between     "
           >
-            <div className="grid grid-cols-1">
+            {/* <div className="grid grid-cols-1">
               <div className=" justify-self-end mt-14  ">
                 <video className=" h-full rounded-lg shadow-2xl " controls>
                   <source src="/cypto.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
+              </div>
+            </div> */}
+            <div className="  mt-14 w-1/2  ">
+              <div className="text-xl font-bold ">Click to see demo</div>
+              <div className="  rounded-lg  ">
+                <Image
+                  className="rounded-lg shadow-2xl"
+                  width={700}
+                  preview={{
+                    imageRender: () => (
+                      <video
+                        muted
+                        width="60%"
+                        controls
+                        src="/lastcryptovid.mp4"
+                      />
+                    ),
+                    toolbarRender: () => null,
+                  }}
+                  src="/crypto.png"
+                />
               </div>
             </div>
 

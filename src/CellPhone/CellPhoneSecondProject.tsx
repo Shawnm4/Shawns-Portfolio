@@ -34,20 +34,21 @@ export default function CellPhoneSecondProject() {
         <div className="text-4xl font-bold ml-2 mb-5">ChainSight</div>
         <div className="mb-5 underline text-2xl ml-2 font-bold">
           <a href="https://cryptotracker-blue-ten.vercel.app/" target="_blank">
-            Visit Live Site &darr;
+            Visit Live Site
+          </a>
+        </div>
+        <div className="underline text-2xl ml-2 mb-5 font-bold ">
+          <a href="https://github.com/Shawnm4/Cryptotracker" target="_blank">
+            View Code
           </a>
         </div>
         <div className="w-full flex justify-center   ">
           <video className=" w-11/12 rounded-lg shadow-2xl " controls>
-            <source src="/cypto.mp4" type="video/mp4" />
+            <source src="/lastcryptovid.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="underline text-2xl ml-2 mt-5 font-bold ">
-          <a href="https://github.com/Shawnm4/Cryptotracker" target="_blank">
-            View Code &uarr;
-          </a>
-        </div>
+
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"

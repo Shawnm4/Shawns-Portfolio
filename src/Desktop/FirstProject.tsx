@@ -1,6 +1,6 @@
 import { Tooltip } from "antd";
 import { EColors } from "../Util/EColors";
-
+import { Image } from "antd";
 export default function FirstProject() {
   return (
     <div style={{ position: "relative" }} className="mt-36 ">
@@ -27,19 +27,21 @@ export default function FirstProject() {
       >
         <div
           style={{ fontFamily: "Inter" }}
-          className="flex ml-40 justify-between  gap-20  "
+          className="flex ml-40 justify-between  gap-36  "
         >
           <div className="w-1/2">
             <div className="text-6xl font-bold mb-5 ">Charlie Glass Admin</div>
             <div className="text-lg mb-5">
-              My colleague and I worked together to create a special web app for
-              a business that need help managing their money. Our main aim was
-              to make a tool that makes it easier to keep an eye on finances and
-              also helps with making and handling quotes and invoices. This app
-              is really important for businesses that want to get better at
-              understanding their finances and working more efficiently. I
-              focused on designing the part of the app that users see and
-              interact with, making sure it was easy and pleasant to use.
+              The goal of this project wat to practice basic CRUD actions. This
+              was my first project for a real client. My colleague and I worked
+              together to create a special web app for a business that need help
+              managing their money. Our main aim was to make a tool that makes
+              it easier to keep an eye on finances and also helps with making
+              and handling quotes and invoices. This app is really important for
+              businesses that want to get better at understanding their finances
+              and working more efficiently. I focused on designing the part of
+              the app that users see and interact with, making sure it was easy
+              and pleasant to use.
             </div>
             <div className="text-lg mb-5">
               As a co-developer and designer on this project, I had many roles.
@@ -129,12 +131,33 @@ export default function FirstProject() {
               </a>
             </div>
           </div>
-          <div className=" justify-self-end mt-14  ">
+          <div className="  mt-14 w-1/2  ">
+            <div className="text-xl font-bold ">Click to see demo</div>
+            <div className="  rounded-lg  ">
+              <Image
+                className="rounded-lg shadow-2xl"
+                width={700}
+                preview={{
+                  imageRender: () => (
+                    <video
+                      muted
+                      width="60%"
+                      controls
+                      src="/actualnewcharlieglass.mp4"
+                    />
+                  ),
+                  toolbarRender: () => null,
+                }}
+                src="/charlieglass.png"
+              />
+            </div>
+          </div>
+          {/* <div className=" justify-self-end mt-14  ">
             <video className=" h-3/4 rounded-lg shadow-2xl " controls>
               <source src="/actualnewcharlieglass.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -34,7 +34,7 @@ export default function TabletSecondProject() {
         </svg>
       </div>
       <div className="w-full">
-        <div className=" flex justify-center">
+        <div className=" flex justify-center ">
           <div className=" w-11/12 flex gap-10 justify-between">
             <div className="w-1/2 justify-self-end">
               <div className=" underline text-2xl ml-2 font-bold mb-2">
@@ -55,17 +55,18 @@ export default function TabletSecondProject() {
               </div>
               <div className=" justify-self-end mb-14 mt-6  ">
                 <video className=" h-3/4 rounded-lg shadow-2xl " controls>
-                  <source src="/cypto.mp4" type="video/mp4" />
+                  <source src="/lastcryptovid.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
+
               <div
                 className="text-2xl text-center"
                 style={{ fontFamily: "Orbitron" }}
               >
                 <div
                   style={{ whiteSpace: "nowrap", fontWeight: "600" }}
-                  className="mr-3 "
+                  className="mr-3 tre "
                 >
                   Tech Stack Used
                 </div>

@@ -21,9 +21,14 @@ export default function CellPhoneThirdProject() {
         <div className="text-4xl font-bold ml-2 mb-5">
           Salem Union RZUA Church
         </div>
-        <div className="mb-5 underline text-2xl ml-2 font-bold">
+        <div className="mb-2 underline text-2xl ml-2 font-bold">
           <a href="https://salemunionrzuachurch.vercel.app/" target="_blank">
-            Visit Live Site &darr;
+            Visit Live Site
+          </a>
+        </div>
+        <div className="underline text-2xl ml-2 mb-5 font-bold ">
+          <a href=" https://github.com/Shawnm4/salemunion" target="_blank">
+            View Code
           </a>
         </div>
         <div className="w-full flex justify-center   ">
@@ -32,11 +37,7 @@ export default function CellPhoneThirdProject() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className="underline text-2xl ml-2 mt-5 font-bold ">
-          <a href=" https://github.com/Shawnm4/salemunion" target="_blank">
-            View Code &uarr;
-          </a>
-        </div>
+
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"

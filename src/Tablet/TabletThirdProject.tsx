@@ -24,7 +24,7 @@ export default function TabletThirdProject() {
         <div className=" flex justify-center">
           <div className=" w-11/12 flex gap-10 justify-between">
             <div className="w-1/2">
-              <div className="text-4xl font-bold mb-1 whitespace-nowrap ">
+              <div className="text-4xl font-bold mb-1  ">
                 Salem Union RZUA Church
               </div>
               <div className="text-lg mb-5">

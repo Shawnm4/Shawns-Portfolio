@@ -31,15 +31,16 @@ export default function TabletFirstProject() {
                 Charlie Glass Admin
               </div>
               <div className="text-lg mb-5">
-                My colleague and I worked together to create a special web app
-                for a business that need help managing their money. Our main aim
-                was to make a tool that makes it easier to keep an eye on
-                finances and also helps with making and handling quotes and
-                invoices. This app is really important for businesses that want
-                to get better at understanding their finances and working more
-                efficiently. I focused on designing the part of the app that
-                users see and interact with, making sure it was easy and
-                pleasant to use.
+                The goal of this project wat to practice basic CRUD actions.
+                This was my first project for a real client. My colleague and I
+                worked together to create a special web app for a business that
+                need help managing their money. Our main aim was to make a tool
+                that makes it easier to keep an eye on finances and also helps
+                with making and handling quotes and invoices. This app is really
+                important for businesses that want to get better at
+                understanding their finances and working more efficiently. I
+                focused on designing the part of the app that users see and
+                interact with, making sure it was easy and pleasant to use.
               </div>
               <div className=" text-lg mb-5 hidden lg:inline-block">
                 As a co-developer and designer on this project, I had many
