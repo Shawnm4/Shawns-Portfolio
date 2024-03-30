@@ -35,13 +35,12 @@ export default function ThirdProject() {
                 Salem Union RZUA Church
               </div>
               <div className="text-lg mb-5 ">
-                I had the rewarding opportunity to design and develop a website
-                for a local church, aiming to create a digital space that
-                reflects the church's welcoming community and spiritual mission.
-                The goal was to provide an accessible platform where
-                congregation members and visitors could find information about
-                church services, events, programs, and community outreach
-                initiatives.
+                I had the opportunity to design and develop a website for a
+                local church, aiming to create a digital space that reflects the
+                church's welcoming community and spiritual mission. The goal was
+                to provide an accessible platform where congregation members and
+                visitors could find information about church services and
+                community outreach initiatives.
               </div>
               <div className="text-lg mb-5 mr-10">
                 As the sole developer working on the church website, I handled
@@ -110,7 +109,7 @@ export default function ThirdProject() {
               </div>
             </div>
             <div className="  mt-14 w-1/2  ">
-              <div className="text-xl font-bold ">Click to see demo</div>
+              <div className="text-xl font-bold ">Click to see video</div>
               <div className="  rounded-lg  ">
                 <Image
                   className="rounded-lg shadow-2xl"

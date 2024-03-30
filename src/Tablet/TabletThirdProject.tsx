@@ -28,13 +28,12 @@ export default function TabletThirdProject() {
                 Salem Union RZUA Church
               </div>
               <div className="text-lg mb-5">
-                I had the rewarding opportunity to design and develop a website
-                for a local church, aiming to create a digital space that
-                reflects the church's welcoming community and spiritual mission.
-                The goal was to provide an accessible platform where
-                congregation members and visitors could find information about
-                church services, events, programs, and community outreach
-                initiatives.
+                I had the opportunity to design and develop a website for a
+                local church, aiming to create a digital space that reflects the
+                church's welcoming community and spiritual mission. The goal was
+                to provide an accessible platform where congregation members and
+                visitors could find information about church services and
+                community outreach initiatives.
               </div>
               <div className=" text-lg mb-5 hidden lg:inline-block">
                 As the sole developer working on the church website, I handled

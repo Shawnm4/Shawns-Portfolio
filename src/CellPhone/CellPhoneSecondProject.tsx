@@ -53,23 +53,20 @@ export default function CellPhoneSecondProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          ChainSight was developed to address the need for a comprehensive,
-          user-friendly platform that provides real-time insights and analytics
-          on the cryptocurrency market. Aimed at both novice and experienced
-          investors, the app simplifies the complexities of cryptocurrency
-          trading by offering intuitive monitoring tools, live market updates,
-          and expert analysis.
+          The goal of this project was to practice using Node.js and APIs. As
+          the developer, I was in charge of creating CryptoPulse from start to
+          finish. This included coming up with the idea, designing it, building
+          it, and making sure the app helped users with useful information.
         </div>
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center pt-0 p-6 text-xl"
         >
-          As the developer (or project manager, designer, etc.—customize as
-          appropriate), I spearheaded the conceptualization, design, and
-          development of CryptoPulse. My responsibilities included overseeing
-          the project lifecycle from ideation to launch, managing the
-          development team, and ensuring the app’s functionality aligned with
-          our core mission to empower users with actionable insights.
+          ChainSight is a user-friendly platform that provides real-time
+          insights and analytics on the cryptocurrency market. Aimed at both
+          novice and experienced investors, the app simplifies the complexities
+          of cryptocurrency trading by offering intuitive monitoring tools, live
+          market updates, and expert analysis.
         </div>
         <div
           className="text-2xl text-center"

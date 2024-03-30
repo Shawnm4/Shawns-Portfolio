@@ -44,16 +44,8 @@ export default function SecondProject() {
             style={{ fontFamily: "Inter" }}
             className="flex ml-32  gap-56 justify-between     "
           >
-            {/* <div className="grid grid-cols-1">
-              <div className=" justify-self-end mt-14  ">
-                <video className=" h-full rounded-lg shadow-2xl " controls>
-                  <source src="/cypto.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div> */}
             <div className="  mt-14 w-1/2  ">
-              <div className="text-xl font-bold ">Click to see demo</div>
+              <div className="text-xl font-bold ">Click to see video</div>
               <div className="  rounded-lg  ">
                 <Image
                   className="rounded-lg shadow-2xl"
@@ -77,21 +69,18 @@ export default function SecondProject() {
             <div className="w-1/2">
               <div className="text-6xl font-bold mb-5 mt-8 ">ChainSight</div>
               <div className="text-lg mb-5 mr-10">
-                ChainSight was developed to address the need for a
-                comprehensive, user-friendly platform that provides real-time
+                The goal of this project was to practice using Node.js and APIs.
+                As the developer, I was in charge of creating CryptoPulse from
+                start to finish. This included coming up with the idea,
+                designing it, building it, and making sure the app helped users
+                with useful information.
+              </div>
+              <div className="text-lg mb-5 mr-10">
+                ChainSight is a user-friendly platform that provides real-time
                 insights and analytics on the cryptocurrency market. Aimed at
                 both novice and experienced investors, the app simplifies the
                 complexities of cryptocurrency trading by offering intuitive
                 monitoring tools, live market updates, and expert analysis.
-              </div>
-              <div className="text-lg mb-5 mr-10">
-                As the developer (or project manager, designer, etc.—customize
-                as appropriate), I spearheaded the conceptualization, design,
-                and development of CryptoPulse. My responsibilities included
-                overseeing the project lifecycle from ideation to launch,
-                managing the development team, and ensuring the app’s
-                functionality aligned with our core mission to empower users
-                with actionable insights.
               </div>
               <div className="flex items-end mb-2">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>

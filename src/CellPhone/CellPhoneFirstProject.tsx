@@ -48,7 +48,7 @@ export default function CellPhoneFirstProject() {
         >
           The goal of this project wat to practice basic CRUD actions. This was
           my first project for a real client. My colleague and I worked together
-          to create a special web app for a business that need help managing
+          to create a special web app for a business that needed help managing
           their money. Our main aim was to make a tool that makes it easier to
           keep an eye on finances and also helps with making and handling quotes
           and invoices. This app is really important for businesses that want to

@@ -31,6 +31,7 @@ export default function TabletHeader() {
             >
               I am a software engineer with a passion for excelling in my field.
             </div>
+
             <div className="flex justify-center">
               <ul className="flex gap-6 text-4xl cursor-pointer">
                 <li>
