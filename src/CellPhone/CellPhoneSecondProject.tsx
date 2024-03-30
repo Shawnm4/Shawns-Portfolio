@@ -53,10 +53,10 @@ export default function CellPhoneSecondProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          The goal of this project was to practice using Node.js and APIs. As
-          the developer, I was in charge of creating CryptoPulse from start to
-          finish. This included coming up with the idea, designing it, building
-          it, and making sure the app helped users with useful information.
+          The goal of this project was to practice using APIs. As the developer,
+          I was in charge of creating CryptoPulse from start to finish. This
+          included coming up with the idea, designing it, building it, and
+          making sure the app helped users with useful information.
         </div>
         <div
           style={{ fontFamily: "Inter" }}

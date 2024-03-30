@@ -69,11 +69,11 @@ export default function SecondProject() {
             <div className="w-1/2">
               <div className="text-6xl font-bold mb-5 mt-8 ">ChainSight</div>
               <div className="text-lg mb-5 mr-10">
-                The goal of this project was to practice using Node.js and APIs.
-                As the developer, I was in charge of creating CryptoPulse from
-                start to finish. This included coming up with the idea,
-                designing it, building it, and making sure the app helped users
-                with useful information.
+                The goal of this project was to practice using APIs. As the
+                developer, I was in charge of creating CryptoPulse from start to
+                finish. This included coming up with the idea, designing it,
+                building it, and making sure the app helped users with useful
+                information.
               </div>
               <div className="text-lg mb-5 mr-10">
                 ChainSight is a user-friendly platform that provides real-time
