@@ -36,7 +36,7 @@ export default function TabletThirdProject() {
                 community outreach initiatives.
               </div>
               <div className=" text-lg mb-5 hidden lg:inline-block">
-                As the sole developer working on the church website, I handled
+                As the sole developer working on the website, I handled
                 everything from start to end. First, I talked with the church
                 leaders to understand what they wanted for their website. Then,
                 I designed a website that looks good and is easy for everyone to
@@ -127,9 +127,9 @@ export default function TabletThirdProject() {
           </div>
         </div>
         <div className="p-6 text-lg  lg:hidden">
-          As the sole developer working on the church website, I handled
-          everything from start to end. First, I talked with the church leaders
-          to understand what they wanted for their website. Then, I designed a
+          As the sole developer working on the website, I handled everything
+          from start to end. First, I talked with the church leaders to
+          understand what they wanted for their website. Then, I designed a
           website that looks good and is easy for everyone to use. Also, I made
           sure the website works well on all devices, like smartphones, tablets,
           and computers.

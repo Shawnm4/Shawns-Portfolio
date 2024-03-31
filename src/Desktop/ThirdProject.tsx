@@ -43,7 +43,7 @@ export default function ThirdProject() {
                 community outreach initiatives.
               </div>
               <div className="text-lg mb-5 mr-10">
-                As the sole developer working on the church website, I handled
+                As the sole developer working on the website, I handled
                 everything from start to end. First, I talked with the church
                 leaders to understand what they wanted for their website. Then,
                 I designed a website that looks good and is easy for everyone to

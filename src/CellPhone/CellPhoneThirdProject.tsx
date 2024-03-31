@@ -42,20 +42,19 @@ export default function CellPhoneThirdProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          I had the rewarding opportunity to design and develop a website for a
-          local church, aiming to create a digital space that reflects the
-          church's welcoming community and spiritual mission. The goal was to
-          provide an accessible platform where congregation members and visitors
-          could find information about church services, events, programs, and
-          community outreach initiatives.
+          I had the opportunity to design and develop a website for a local
+          church, aiming to create a digital space that reflects the church's
+          welcoming community and spiritual mission. The goal was to provide an
+          accessible platform where congregation members and visitors could find
+          information about church services and community outreach initiatives.
         </div>
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center pt-0 p-6 text-xl"
         >
-          As the sole developer working on the church website, I handled
-          everything from start to end. First, I talked with the church leaders
-          to understand what they wanted for their website. Then, I designed a
+          As the sole developer working on the website, I handled everything
+          from start to end. First, I talked with the church leaders to
+          understand what they wanted for their website. Then, I designed a
           website that looks good and is easy for everyone to use. Also, I made
           sure the website works well on all devices, like smartphones, tablets,
           and computers.

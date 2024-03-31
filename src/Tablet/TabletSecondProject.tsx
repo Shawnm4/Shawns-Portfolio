@@ -39,7 +39,7 @@ export default function TabletSecondProject() {
             <div className="w-1/2 justify-self-end">
               <div className=" underline text-2xl ml-2 font-bold mb-2">
                 <a
-                  href="https://cryptotracker-blue-ten.vercel.app/"
+                  href="https://chainsight-crypto-tracking.vercel.app/"
                   target="_blank"
                 >
                   Visit Live Site
@@ -122,7 +122,7 @@ export default function TabletSecondProject() {
                 ChainSight
               </div>
               <div className="text-lg mb-5">
-                The goal of this project was to practice using APIs. As the
+                The main goal of this project was to practice using APIs. As the
                 developer, I was in charge of creating CryptoPulse from start to
                 finish. This included coming up with the idea, designing it,
                 building it, and making sure the app helped users with useful
@@ -139,16 +139,11 @@ export default function TabletSecondProject() {
           </div>
         </div>
         <div className="p-6 text-lg mb-5 lg:hidden">
-          As a co-developer and designer on this project, I had many roles. I
-          worked closely with our client to really understand what they needed.
-          This helped us make sure our app would help their business the way
-          they wanted. I focused on making the part of the app that users see
-          very user-friendly. I also helped set up the system that manages data
-          in the background. Part of my job was to create features that allow
-          users to make, see, download, and print quotes and invoices easily.
-          Plus, I helped include a special dashboard in the app. This dashboard
-          lets businesses check on their money and how well they are doing at
-          any time.
+          ChainSight is a user-friendly platform that provides real-time
+          insights and analytics on the cryptocurrency market. Aimed at both
+          novice and experienced investors, the app simplifies the complexities
+          of cryptocurrency trading by offering intuitive monitoring tools, live
+          market updates, and expert analysis.
         </div>
       </div>
     </div>

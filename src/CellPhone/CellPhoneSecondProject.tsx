@@ -33,7 +33,10 @@ export default function CellPhoneSecondProject() {
       <div>
         <div className="text-4xl font-bold ml-2 mb-5">ChainSight</div>
         <div className="mb-5 underline text-2xl ml-2 font-bold">
-          <a href="https://cryptotracker-blue-ten.vercel.app/" target="_blank">
+          <a
+            href="https://chainsight-crypto-tracking.vercel.app/"
+            target="_blank"
+          >
             Visit Live Site
           </a>
         </div>
@@ -53,10 +56,10 @@ export default function CellPhoneSecondProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          The goal of this project was to practice using APIs. As the developer,
-          I was in charge of creating CryptoPulse from start to finish. This
-          included coming up with the idea, designing it, building it, and
-          making sure the app helped users with useful information.
+          The main goal of this project was to practice using APIs. As the
+          developer, I was in charge of creating CryptoPulse from start to
+          finish. This included coming up with the idea, designing it, building
+          it, and making sure the app helped users with useful information.
         </div>
         <div
           style={{ fontFamily: "Inter" }}
