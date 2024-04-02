@@ -3,6 +3,14 @@ import { EColors } from "../Util/EColors";
 import { Image } from "antd";
 
 export default function SecondProject() {
+  function mouseEnter(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "#339af0";
+    e.currentTarget.style.textDecoration = "underline";
+  }
+  function mouseLeave(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "";
+  }
+
   return (
     <div style={{ position: "relative" }}>
       <div>
@@ -45,7 +53,32 @@ export default function SecondProject() {
             className="flex ml-32  gap-56 justify-between     "
           >
             <div className="  mt-14 w-1/2  ">
-              <div className="text-xl font-bold ">Click to see video</div>
+              <div className="flex gap-20  ">
+                <div
+                  onMouseEnter={mouseEnter}
+                  onMouseLeave={mouseLeave}
+                  className="mb-2 underline text-2xl"
+                >
+                  <a
+                    href="https://chainsight-crypto-tracking.vercel.app/"
+                    target="_blank"
+                  >
+                    Visit Live Site &darr;
+                  </a>
+                </div>
+                <div
+                  onMouseEnter={mouseEnter}
+                  onMouseLeave={mouseLeave}
+                  className="underline text-2xl"
+                >
+                  <a
+                    href="https://github.com/Shawnm4/Cryptotracker"
+                    target="_blank"
+                  >
+                    View Code &darr;
+                  </a>
+                </div>
+              </div>
               <div className="  rounded-lg  ">
                 <Image
                   className="rounded-lg shadow-2xl"
@@ -64,24 +97,36 @@ export default function SecondProject() {
                   src="/crypto.png"
                 />
               </div>
+              <div className="text-xl font-bold text-center ">
+                Click to see video
+              </div>
             </div>
 
             <div className="w-1/2">
-              <div className="text-6xl font-bold mb-5 mt-8 ">ChainSight</div>
-              <div className="text-lg mb-5 mr-10">
-                The main goal of this project was to practice using APIs. As the
-                developer, I was in charge of creating CryptoPulse from start to
-                finish. This included coming up with the idea, designing it,
-                building it, and making sure the app helped users with useful
-                information.
+              <div
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
+                className="text-6xl font-bold mb-5 mt-8 underline cursor-pointer "
+              >
+                <a
+                  href="https://chainsight-crypto-tracking.vercel.app/"
+                  target="_blank"
+                >
+                  ChainSight
+                </a>
               </div>
               <div className="text-lg mb-5 mr-10">
-                ChainSight is a user-friendly platform that provides real-time
-                insights and analytics on the cryptocurrency market. Aimed at
-                both novice and experienced investors, the app simplifies the
-                complexities of cryptocurrency trading by offering intuitive
-                monitoring tools, live market updates, and expert analysis.
+                ChainSight is an app I developed to track the current market
+                stats of the top 25 cryptocurrencies.
               </div>
+              <ul className="mb-20">
+                <li>
+                  &#8226; I wireframed and designed this project from scratch.
+                </li>
+                <li></li>
+                <li>&#8226; Gained experience using APIs.</li>
+              </ul>
+
               <div className="flex items-end mb-2">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
                   <div className="mr-4">Tech Stack Used</div>
@@ -89,14 +134,18 @@ export default function SecondProject() {
                 <div className="flex gap-4">
                   <Tooltip title="HTML">
                     <figure>
-                      <img className="w-10" src="/html.png" alt="htmllogo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/html.png"
+                        alt="htmllogo"
+                      />
                     </figure>
                   </Tooltip>
 
                   <Tooltip title="Typescript">
                     <figure>
                       <img
-                        className="w-10"
+                        className="w-10 drop-shadow-lg"
                         src="/typescript.png"
                         alt="typescript logo"
                       />
@@ -104,40 +153,32 @@ export default function SecondProject() {
                   </Tooltip>
                   <Tooltip title="React">
                     <figure>
-                      <img className="w-10" src="/react.png" alt="react logo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/4react.png"
+                        alt="react logo"
+                      />
                     </figure>
                   </Tooltip>
                   <Tooltip title="Git">
                     <figure>
-                      <img className="w-10" src="/git.png" alt="git logo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/giticon.png"
+                        alt="git logo"
+                      />
                     </figure>
                   </Tooltip>
                   <Tooltip title="TailWind Css">
                     <figure>
                       <img
-                        className="w-10 self-end "
-                        src="/tailwind.png"
+                        className="w-10 self-end drop-shadow-lg "
+                        src="/TailwindCSS.png"
                         alt="tail wind log"
                       />
                     </figure>
                   </Tooltip>
                 </div>
-              </div>
-              <div className="mb-2 underline text-xl">
-                <a
-                  href="https://chainsight-crypto-tracking.vercel.app/"
-                  target="_blank"
-                >
-                  &larr; Visit Live Site
-                </a>
-              </div>
-              <div className="underline text-xl">
-                <a
-                  href="https://github.com/Shawnm4/Cryptotracker"
-                  target="_blank"
-                >
-                  &larr; View Code
-                </a>
               </div>
             </div>
           </div>

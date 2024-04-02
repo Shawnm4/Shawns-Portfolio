@@ -18,8 +18,10 @@ export default function CellPhoneThirdProject() {
         </svg>
       </div>
       <div style={{ backgroundColor: EColors.salemprimary }}>
-        <div className="text-4xl font-bold ml-2 mb-5">
-          Salem Union RZUA Church
+        <div className="text-4xl font-bold ml-2 mb-5 underline">
+          <a href="https://salemunionrzuachurch.vercel.app/" target="_blank">
+            Salem Union RZUA Church
+          </a>
         </div>
         <div className="mb-2 underline text-2xl ml-2 font-bold">
           <a href="https://salemunionrzuachurch.vercel.app/" target="_blank">
@@ -42,22 +44,21 @@ export default function CellPhoneThirdProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          I had the opportunity to design and develop a website for a local
-          church, aiming to create a digital space that reflects the church's
-          welcoming community and spiritual mission. The goal was to provide an
-          accessible platform where congregation members and visitors could find
-          information about church services and community outreach initiatives.
+          This website was made for a local church. It was developed to share
+          information about the church for people curious about the activities
+          or interested in visiting.
         </div>
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center pt-0 p-6 text-xl"
         >
-          As the sole developer working on the website, I handled everything
-          from start to end. First, I talked with the church leaders to
-          understand what they wanted for their website. Then, I designed a
-          website that looks good and is easy for everyone to use. Also, I made
-          sure the website works well on all devices, like smartphones, tablets,
-          and computers.
+          {" "}
+          <ul>
+            <li className="mb-4">
+              &#8226; I worked with the customer to leave them satisfied.
+            </li>
+            <li>&#8226; I also wireframed and designed it from scratch.</li>
+          </ul>
         </div>
         <div
           className="text-2xl text-center"
@@ -73,18 +74,26 @@ export default function CellPhoneThirdProject() {
         <div className="flex gap-4 p-2">
           <Tooltip title="HTML">
             <figure>
-              <img className="w-10" src="/html.png" alt="htmllogo" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/html.png"
+                alt="htmllogo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Javascript">
             <figure>
-              <img className="w-10" src="/js.png" alt="javascriptlogo.png" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/js.png"
+                alt="javascriptlogo.png"
+              />
             </figure>
           </Tooltip>
-          <Tooltip title="Typescript">
+          <Tooltip title="Typescript ">
             <figure>
               <img
-                className="w-10"
+                className="w-10 drop-shadow-lg"
                 src="/typescript.png"
                 alt="typescript logo"
               />
@@ -92,22 +101,38 @@ export default function CellPhoneThirdProject() {
           </Tooltip>
           <Tooltip title="React">
             <figure>
-              <img className="w-10" src="/react.png" alt="react logo" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/4react.png"
+                alt="react logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Git">
             <figure>
-              <img className="w-10" src="/git.png" alt="git logo" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/2git.png"
+                alt="git logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/css-3.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/css-3.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/tailwind.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-lg"
+                src="/TailwindCSS.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
         </div>

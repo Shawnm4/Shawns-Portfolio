@@ -3,6 +3,13 @@ import { EColors } from "../Util/EColors";
 import { Image } from "antd";
 
 export default function ThirdProject() {
+  function mouseEnter(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "#339af0";
+    e.currentTarget.style.textDecoration = "underline";
+  }
+  function mouseLeave(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "";
+  }
   return (
     <div className="mt-36 ">
       <div>
@@ -23,7 +30,7 @@ export default function ThirdProject() {
           className=" h-full 
           "
           style={{
-            backgroundColor: EColors.salemprimary,
+            backgroundColor: "#fa5252",
           }}
         >
           <div
@@ -31,25 +38,29 @@ export default function ThirdProject() {
             className="flex ml-32 gap-56 justify-between   "
           >
             <div className="w-1/2">
-              <div className="text-6xl font-bold mb-5 mt-14 justify-self-end ">
-                Salem Union RZUA Church
+              <div
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
+                className="text-6xl font-bold mb-5 mt-14 justify-self-end underline cursor-pointer "
+              >
+                <a
+                  href="https://salemunionrzuachurch.vercel.app/"
+                  target="_blank"
+                >
+                  Salem Union RZUA Church
+                </a>
               </div>
               <div className="text-lg mb-5 ">
-                I had the opportunity to design and develop a website for a
-                local church, aiming to create a digital space that reflects the
-                church's welcoming community and spiritual mission. The goal was
-                to provide an accessible platform where congregation members and
-                visitors could find information about church services and
-                community outreach initiatives.
+                This website was made for a local church. It was developed to
+                share information about the church for people curious about the
+                activities or interested in visiting.
               </div>
-              <div className="text-lg mb-5 mr-10">
-                As the sole developer working on the website, I handled
-                everything from start to end. First, I talked with the church
-                leaders to understand what they wanted for their website. Then,
-                I designed a website that looks good and is easy for everyone to
-                use. Also, I made sure the website works well on all devices,
-                like smartphones, tablets, and computers.
-              </div>
+              <ul className="mb-20">
+                <li>
+                  &#8226; I worked with the customer to leave them satisfied.
+                </li>
+                <li>&#8226; I also wireframed and designed it from scratch.</li>
+              </ul>
               <div className="flex items-end mb-2 justify-end ">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
                   <div className="mr-4">Tech Stack Used</div>
@@ -57,14 +68,18 @@ export default function ThirdProject() {
                 <div className="flex gap-4 ">
                   <Tooltip title="HTML">
                     <figure>
-                      <img className="w-10" src="/html.png" alt="htmllogo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/html.png"
+                        alt="htmllogo"
+                      />
                     </figure>
                   </Tooltip>
 
                   <Tooltip title="Typescript">
                     <figure>
                       <img
-                        className="w-10"
+                        className="w-10 drop-shadow-lg"
                         src="/typescript.png"
                         alt="typescript logo"
                       />
@@ -72,44 +87,61 @@ export default function ThirdProject() {
                   </Tooltip>
                   <Tooltip title="React">
                     <figure>
-                      <img className="w-10" src="/react.png" alt="react logo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/4react.png"
+                        alt="react logo"
+                      />
                     </figure>
                   </Tooltip>
                   <Tooltip title="Git">
                     <figure>
-                      <img className="w-10" src="/git.png" alt="git logo" />
+                      <img
+                        className="w-10 drop-shadow-lg"
+                        src="/2git.png"
+                        alt="git logo"
+                      />
                     </figure>
                   </Tooltip>
                   <Tooltip title="TailWind Css">
                     <figure>
                       <img
-                        className="w-10 self-end "
-                        src="/tailwind.png"
+                        className="w-10 self-end drop-shadow-lg "
+                        src="/TailwindCSS.png"
                         alt="tail wind log"
                       />
                     </figure>
                   </Tooltip>
                 </div>
               </div>
-              <div className="mb-2 underline text-xl text-right">
-                <a
-                  href="https://salemunionrzuachurch.vercel.app/"
-                  target="_blank"
-                >
-                  Visit Live Site &rarr;
-                </a>
-              </div>
-              <div className="underline text-xl text-right">
-                <a
-                  href=" https://github.com/Shawnm4/salemunion"
-                  target="_blank"
-                >
-                  Visit Live Site &rarr;
-                </a>
-              </div>
             </div>
             <div className="  mt-14 w-1/2  ">
-              <div className="text-xl font-bold ">Click to see video</div>
+              <div className="flex gap-20">
+                <div
+                  onMouseEnter={mouseEnter}
+                  onMouseLeave={mouseLeave}
+                  className="mb-2 underline text-xl "
+                >
+                  <a
+                    href="https://salemunionrzuachurch.vercel.app/"
+                    target="_blank"
+                  >
+                    Visit Live Site &darr;
+                  </a>
+                </div>
+                <div
+                  onMouseEnter={mouseEnter}
+                  onMouseLeave={mouseLeave}
+                  className="underline text-xl "
+                >
+                  <a
+                    href=" https://github.com/Shawnm4/salemunion"
+                    target="_blank"
+                  >
+                    View Code &darr;
+                  </a>
+                </div>
+              </div>
               <div className="  rounded-lg  ">
                 <Image
                   className="rounded-lg shadow-2xl"
@@ -127,6 +159,9 @@ export default function ThirdProject() {
                   }}
                   src="/salem.png"
                 />
+              </div>
+              <div className="text-xl font-bold text-center ">
+                Click to see video
               </div>
             </div>
           </div>

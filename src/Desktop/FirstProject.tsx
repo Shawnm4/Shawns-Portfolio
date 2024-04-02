@@ -2,8 +2,15 @@ import { Tooltip } from "antd";
 import { EColors } from "../Util/EColors";
 import { Image } from "antd";
 export default function FirstProject() {
+  function mouseEnter(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "#339af0";
+    e.currentTarget.style.textDecoration = "underline";
+  }
+  function mouseLeave(e: React.MouseEvent<HTMLElement>) {
+    e.currentTarget.style.color = "";
+  }
   return (
-    <div style={{ position: "relative" }} className="mt-36 ">
+    <div style={{ position: "relative" }} className="mt-32 ">
       <div>
         <svg
           data-name="Layer 1"
@@ -30,46 +37,52 @@ export default function FirstProject() {
           className="flex ml-40 justify-between  gap-36  "
         >
           <div className="w-1/2">
-            <div className="text-6xl font-bold mb-5 ">Charlie Glass Admin</div>
-            <div className="text-lg mb-5">
-              The goal of this project wat to practice basic CRUD actions. This
-              was my first project for a real client. My colleague and I worked
-              together to create a special web app for a business that needed
-              help managing their money. Our main aim was to make a tool that
-              makes it easier to keep an eye on finances and also helps with
-              making and handling quotes and invoices. This app is really
-              important for businesses that want to get better at understanding
-              their finances and working more efficiently. I focused on
-              designing the part of the app that users see and interact with,
-              making sure it was easy and pleasant to use.
+            <div
+              onMouseEnter={mouseEnter}
+              onMouseLeave={mouseLeave}
+              className="text-6xl font-bold mb-5 cursor-pointer underline "
+            >
+              <a
+                href="https://charlie-glass-admin.vercel.app/login"
+                target="_blank"
+              >
+                Charlie Glass Admin
+              </a>
             </div>
             <div className="text-lg mb-5">
-              As a co-developer and designer on this project, I had many roles.
-              I worked closely with our client to really understand what they
-              needed. This helped us make sure our app would help their business
-              the way they wanted. I focused on making the part of the app that
-              users see very user-friendly. I also helped set up the system that
-              manages data in the background. Part of my job was to create
-              features that allow users to make, see, download, and print quotes
-              and invoices easily. Plus, I helped include a special dashboard in
-              the app. This dashboard lets businesses check on their money and
-              how well they are doing at any time.
+              This app was made for Charlie Glass to manage invoices, quotes,
+              and to see profits
             </div>
-            <div className="flex items-end mb-2 justify-end">
+            <ul className="mb-20">
+              <li>&#8226; I collaborated with a team of other developers.</li>
+              <li>
+                &#8226; Used git version control, merge request, and went
+                through rounds of code reviews.
+              </li>
+              <li>&#8226;Used wireframing.</li>
+              <li>&#8226;Created the responsive design.</li>
+              <li>&#8226;Gained experience using CRUD actions.</li>
+            </ul>
+
+            <div className="flex items-end mb-2 ">
               <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
                 <div className="mr-4">Tech Stack Used</div>
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-4 ">
                 <Tooltip title="HTML">
                   <figure>
-                    <img className="w-10" src="/html.png" alt="htmllogo" />
+                    <img
+                      className="w-10 drop-shadow-xl"
+                      src="/html.png"
+                      alt="htmllogo"
+                    />
                   </figure>
                 </Tooltip>
 
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-10"
+                      className="w-10 drop-shadow-xl"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -77,19 +90,27 @@ export default function FirstProject() {
                 </Tooltip>
                 <Tooltip title="React">
                   <figure>
-                    <img className="w-10" src="/react.png" alt="react logo" />
+                    <img
+                      className="w-10 drop-shadow-xl"
+                      src="/4react.png"
+                      alt="react logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Git">
                   <figure>
-                    <img className="w-10" src="/git.png" alt="git logo" />
+                    <img
+                      className="w-10 drop-shadow-xl"
+                      src="/giticon.png"
+                      alt="git logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="TailWind Css">
                   <figure>
                     <img
-                      className="w-10 self-end "
-                      src="/tailwind.png"
+                      className="w-10 self-end drop-shadow-xl "
+                      src="/TailwindCSS.png"
                       alt="tail wind log"
                     />
                   </figure>
@@ -97,8 +118,8 @@ export default function FirstProject() {
                 <Tooltip title="Node.Js">
                   <figure>
                     <img
-                      className="w-10 self-end "
-                      src="/node-js.png"
+                      className="w-10 self-end  drop-shadow-xl"
+                      src="/nodeJS.png"
                       alt="tail wind log"
                     />
                   </figure>
@@ -106,36 +127,48 @@ export default function FirstProject() {
                 <Tooltip title="SQL">
                   <figure>
                     <img
-                      className="w-10 self-end "
-                      src="/sql.png"
+                      className="w-10 self-end drop-shadow-xl"
+                      src="/sql2.png"
                       alt="tail wind log"
                     />
                   </figure>
                 </Tooltip>
               </div>
             </div>
-            <div className="mb-2 underline text-xl text-right">
-              <a
-                href="https://charlie-glass-admin.vercel.app/login"
-                target="_blank"
-              >
-                Visit Live Site &rarr;
-              </a>
-            </div>
-            <div className="underline text-xl text-right">
-              <a
-                href="https://github.com/nsikan-na/charlie-glass-admin"
-                target="_blank"
-              >
-                View Code &rarr;
-              </a>
-            </div>
           </div>
+
           <div className="  mt-14 w-1/2  ">
-            <div className="text-xl font-bold ">Click to see video</div>
+            <div className="flex gap-20">
+              <div
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
+                className="mb-2 underline  text-2xl  "
+              >
+                <a
+                  href="https://charlie-glass-admin.vercel.app/login"
+                  target="_blank"
+                >
+                  Visit Live Site &darr;
+                </a>
+              </div>
+
+              <div
+                onMouseEnter={mouseEnter}
+                onMouseLeave={mouseLeave}
+                className="underline text-2xl "
+              >
+                <a
+                  href="https://github.com/nsikan-na/charlie-glass-admin"
+                  target="_blank"
+                >
+                  View Code &darr;
+                </a>
+              </div>
+            </div>
+
             <div className="  rounded-lg  ">
               <Image
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl "
                 width={700}
                 preview={{
                   imageRender: () => (
@@ -150,6 +183,9 @@ export default function FirstProject() {
                 }}
                 src="/charlieglass.png"
               />
+            </div>
+            <div className="text-xl font-bold text-center">
+              Click to see video
             </div>
           </div>
           {/* <div className=" justify-self-end mt-14  ">

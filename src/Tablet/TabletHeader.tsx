@@ -1,8 +1,4 @@
-import {
-  GithubOutlined,
-  LinkedinOutlined,
-  MailOutlined,
-} from "@ant-design/icons";
+import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import { Tooltip } from "antd";
 import { EColors } from "../Util/EColors";
 
@@ -12,7 +8,7 @@ export default function TabletHeader() {
       <div style={{ width: "100%" }} className=" w-full flex justify-center ">
         <section
           style={{ fontFamily: "Inter" }}
-          className=" flex w-10/12 justify-self-center justify-between mt-36 "
+          className=" flex w-10/12 justify-self-center justify-between mt-10 "
         >
           <div className="drop-shadow-md text-2xl ">
             <div
@@ -26,33 +22,16 @@ export default function TabletHeader() {
               <span style={{ color: EColors.textGray }}> Montgomery</span>
             </div>
             <div
-              className="w-1/2"
+              className="w-1/2 "
               style={{ fontWeight: "600", color: EColors.textGray2 }}
             >
               I am a software engineer with a passion for excelling in my field.
             </div>
-
-            <div className="flex justify-center">
-              <ul className="flex gap-6 text-4xl cursor-pointer">
-                <li>
-                  <a href="https://github.com/Shawnm4" target="_blank">
-                    <GithubOutlined />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/shawn-montgomery-4760892a6/"
-                    target="_blank"
-                  >
-                    <LinkedinOutlined />
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:shawnrmonty@gmail.com" target="_blank">
-                    <MailOutlined />
-                  </a>
-                </li>
-              </ul>
+            <div
+              className="text-2xl  "
+              style={{ fontWeight: "600", color: EColors.textGray2 }}
+            >
+              shawnrmonty@gmail.com
             </div>
           </div>
           <div className=" self-end ">
@@ -68,13 +47,17 @@ export default function TabletHeader() {
               <div className="flex gap-2 ">
                 <Tooltip title="HTML">
                   <figure>
-                    <img className="w-10" src="/html.png" alt="htmllogo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/html.png"
+                      alt="htmllogo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Javascript">
                   <figure>
                     <img
-                      className="w-10"
+                      className="w-14 drop-shadow-lg"
                       src="/js.png"
                       alt="javascriptlogo.png"
                     />
@@ -83,7 +66,7 @@ export default function TabletHeader() {
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-10"
+                      className="w-14 drop-shadow-lg"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -91,36 +74,56 @@ export default function TabletHeader() {
                 </Tooltip>
                 <Tooltip title="React">
                   <figure>
-                    <img className="w-10" src="/react.png" alt="react logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/4react.png"
+                      alt="react logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Git">
                   <figure>
-                    <img className="w-10" src="/git.png" alt="git logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/giticon.png"
+                      alt="git logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-10" src="/css-3.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/css-3.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-10" src="/tailwind.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/TailwindCSS.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Node.Js">
                   <figure>
                     <img
-                      className="w-10"
-                      src="/node-js.png"
+                      className="w-14 drop-shadow-lg"
+                      src="/nodeJS.png"
                       alt="nodejs logo"
                     />
                   </figure>
                 </Tooltip>
                 <Tooltip title="SQL">
                   <figure>
-                    <img className="w-10" src="/sql.png" alt="sql logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/sql2.png"
+                      alt="sql logo"
+                    />
                   </figure>
                 </Tooltip>
               </div>

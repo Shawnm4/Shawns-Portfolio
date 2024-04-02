@@ -1,11 +1,5 @@
 import { EColors } from "../Util/EColors";
 import { Tooltip } from "antd";
-import {
-  LinkedinOutlined,
-  MailOutlined,
-  GithubOutlined,
-} from "@ant-design/icons";
-import styles from "./Header.module.css";
 
 export default function Header() {
   return (
@@ -29,49 +23,13 @@ export default function Header() {
             className="text-2xl mt-4 "
             style={{ fontWeight: "600", color: EColors.textGray2 }}
           >
-            I am a software engineer with a passion for excelling in my field.
+            I am a software engineer specializing in fullstack development.
           </div>
           <div
-            className="text-2xl  "
+            className="text-2xl mt-4 "
             style={{ fontWeight: "600", color: EColors.textGray2 }}
           >
-            I am currrently attending BrightPoint Community College for a degree
-            in computer science.
-          </div>
-          <div
-            className="text-2xl "
-            style={{ fontWeight: "600", color: EColors.textGray2 }}
-          >
-            Technologies I have experience with include React.js, Typescript,
-            Node.js, and Git.
-          </div>
-          <div
-            className="text-2xl mb-4 "
-            style={{ fontWeight: "600", color: EColors.textGray2 }}
-          >
-            Most importantly, I can adapt to the needs of my team.
-          </div>
-          <div className="flex justify-center">
-            <ul className="flex gap-20 text-4xl cursor-pointer">
-              <li className={styles.githubIcon}>
-                <a href="https://github.com/Shawnm4" target="_blank">
-                  <GithubOutlined />
-                </a>
-              </li>
-              <li className={styles.linkedinIcon}>
-                <a
-                  href="https://www.linkedin.com/in/shawn-montgomery-4760892a6/"
-                  target="_blank"
-                >
-                  <LinkedinOutlined />
-                </a>
-              </li>
-              <li className={styles.emailIcon}>
-                <a href="mailto:shawnrmonty@gmail.com" target="_blank">
-                  <MailOutlined />
-                </a>
-              </li>
-            </ul>
+            shawnrmonty@gmail.com
           </div>
         </div>
         <div className="flex items-end">
@@ -83,7 +41,7 @@ export default function Header() {
           <div className="flex gap-4 mr-20">
             <Tooltip title="HTML">
               <figure>
-                <img className="w-10" src="/html.png" alt="htmllogo" />
+                <img className="w-10  " src="/html.png" alt="htmllogo" />
               </figure>
             </Tooltip>
             <Tooltip title="Javascript">
@@ -102,32 +60,27 @@ export default function Header() {
             </Tooltip>
             <Tooltip title="React">
               <figure>
-                <img className="w-10" src="/react.png" alt="react logo" />
+                <img className="w-10" src="/4react.png" alt="react logo" />
               </figure>
             </Tooltip>
             <Tooltip title="Git">
               <figure>
-                <img className="w-10" src="/git.png" alt="git logo" />
+                <img className="w-10" src="/giticon.png" alt="git logo" />
               </figure>
             </Tooltip>
-            <Tooltip title="css">
+            <Tooltip title="CSS">
               <figure>
                 <img className="w-10" src="/css-3.png" alt="css logo" />
               </figure>
             </Tooltip>
-            <Tooltip title="css">
+            <Tooltip title="TailWind CSS">
               <figure>
-                <img className="w-10" src="/tailwind.png" alt="css logo" />
+                <img className="w-10" src="/TailwindCSS.png" alt="css logo" />
               </figure>
             </Tooltip>
             <Tooltip title="Node.Js">
               <figure>
-                <img className="w-10" src="/node-js.png" alt="nodejs logo" />
-              </figure>
-            </Tooltip>
-            <Tooltip title="SQL">
-              <figure>
-                <img className="w-10" src="/sql.png" alt="sql logo" />
+                <img className="w-10" src="/nodeJS.png" alt="nodejs logo" />
               </figure>
             </Tooltip>
           </div>

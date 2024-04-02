@@ -80,7 +80,7 @@ export default function TabletSecondProject() {
                 <Tooltip title="Javascript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/js.png"
                       alt="javascriptlogo.png"
                     />
@@ -89,7 +89,7 @@ export default function TabletSecondProject() {
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -97,54 +97,74 @@ export default function TabletSecondProject() {
                 </Tooltip>
                 <Tooltip title="React">
                   <figure>
-                    <img className="w-14" src="/react.png" alt="react logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/4react.png"
+                      alt="react logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Git">
                   <figure>
-                    <img className="w-14" src="/git.png" alt="git logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/giticon.png"
+                      alt="git logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-14" src="/css-3.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/css-3.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-14" src="/tailwind.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/TailwindCSS.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
               </div>
             </div>
             <div className="w-1/2">
-              <div className="text-4xl font-bold mb-1 whitespace-nowrap ">
-                ChainSight
+              <div className="text-4xl font-bold mb-1 whitespace-nowrap underline ">
+                <a
+                  href="https://chainsight-crypto-tracking.vercel.app/"
+                  target="_blank"
+                >
+                  ChainSight
+                </a>
               </div>
               <div className="text-lg mb-5">
-                The main goal of this project was to practice using APIs. As the
-                developer, I was in charge of creating CryptoPulse from start to
-                finish. This included coming up with the idea, designing it,
-                building it, and making sure the app helped users with useful
-                information.
+                ChainSight is an app I developed to track the current market
+                stats of the top 25 cryptocurrencies.
               </div>
-              <div className=" text-lg mb-5 hidden lg:inline-block">
-                ChainSight is a user-friendly platform that provides real-time
-                insights and analytics on the cryptocurrency market. Aimed at
-                both novice and experienced investors, the app simplifies the
-                complexities of cryptocurrency trading by offering intuitive
-                monitoring tools, live market updates, and expert analysis.
+              <div className=" text-lg mb-5 hidden md:inline-block">
+                <ul>
+                  <li>
+                    &#8226; I wireframed and designed this project from scratch.
+                  </li>
+                  <li></li>
+                  <li>&#8226; Gained experience using APIs.</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-6 text-lg mb-5 lg:hidden">
+        {/* <div className="p-6 text-lg mb-5 lg:hidden">
           ChainSight is a user-friendly platform that provides real-time
           insights and analytics on the cryptocurrency market. Aimed at both
           novice and experienced investors, the app simplifies the complexities
           of cryptocurrency trading by offering intuitive monitoring tools, live
           market updates, and expert analysis.
-        </div>
+        </div> */}
       </div>
     </div>
   );

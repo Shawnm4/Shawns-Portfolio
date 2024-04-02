@@ -18,7 +18,14 @@ export default function CellPhoneFirstProject() {
         </svg>
       </div>
       <div style={{ backgroundColor: EColors.charlieprimary }}>
-        <div className="text-4xl font-bold ml-2 mb-5">Charlie Glass Admin</div>
+        <div className="text-4xl font-bold ml-2 mb-5 underline">
+          <a
+            href="https://charlie-glass-admin.vercel.app/login"
+            target="_blank"
+          >
+            Charlie Glass Admin
+          </a>
+        </div>
         <div className="mb-2 underline text-2xl ml-2 font-bold">
           <a
             href="https://charlie-glass-admin.vercel.app/login"
@@ -46,30 +53,27 @@ export default function CellPhoneFirstProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          The goal of this project wat to practice basic CRUD actions. This was
-          my first project for a real client. My colleague and I worked together
-          to create a special web app for a business that needed help managing
-          their money. Our main aim was to make a tool that makes it easier to
-          keep an eye on finances and also helps with making and handling quotes
-          and invoices. This app is really important for businesses that want to
-          get better at understanding their finances and working more
-          efficiently. I focused on designing the part of the app that users see
-          and interact with, making sure it was easy and pleasant to use.
+          This app was made for Charlie Glass to manage invoices, quotes, and to
+          see profits
         </div>
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center pt-0 p-6 text-xl"
         >
-          As a co-developer and designer on this project, I had many roles. I
-          worked closely with our client to really understand what they needed.
-          This helped us make sure our app would help their business the way
-          they wanted. I focused on making the part of the app that users see
-          very user-friendly. I also helped set up the system that manages data
-          in the background. Part of my job was to create features that allow
-          users to make, see, download, and print quotes and invoices easily.
-          Plus, I helped include a special dashboard in the app. This dashboard
-          lets businesses check on their money and how well they are doing at
-          any time.
+          <ul className="">
+            <li className="mb-4">
+              &#8226; I collaborated with a team of other developers.
+            </li>
+            <li className="mb-4">
+              &#8226; Used git version control, merge request, and went through
+              rounds of code reviews.
+            </li>
+            <li className="mb-4">&#8226;Used wireframing.</li>
+            <li className="mb-4">&#8226;Created the responsive design.</li>
+            <li className="mb-4">
+              &#8226;Gained experience using CRUD actions.
+            </li>
+          </ul>
         </div>
         <div
           className="text-2xl text-center"
@@ -85,18 +89,26 @@ export default function CellPhoneFirstProject() {
         <div className="flex gap-4 p-2">
           <Tooltip title="HTML">
             <figure>
-              <img className="w-10" src="/html.png" alt="htmllogo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/html.png"
+                alt="htmllogo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Javascript">
             <figure>
-              <img className="w-10" src="/js.png" alt="javascriptlogo.png" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/js.png"
+                alt="javascriptlogo.png"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Typescript">
             <figure>
               <img
-                className="w-10"
+                className="w-10 drop-shadow-xl"
                 src="/typescript.png"
                 alt="typescript logo"
               />
@@ -104,32 +116,52 @@ export default function CellPhoneFirstProject() {
           </Tooltip>
           <Tooltip title="React">
             <figure>
-              <img className="w-10" src="/react.png" alt="react logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/4react.png"
+                alt="react logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Git">
             <figure>
-              <img className="w-10" src="/git.png" alt="git logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/giticon.png"
+                alt="git logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/css-3.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/css-3.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/tailwind.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/TailwindCSS.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Node.Js">
             <figure>
-              <img className="w-10" src="/node-js.png" alt="nodejs logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/nodeJS.png"
+                alt="nodejs logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="SQL">
             <figure>
-              <img className="w-10" src="/sql.png" alt="sql logo" />
+              <img className="w-10" src="/sql2.png" alt="sql logo" />
             </figure>
           </Tooltip>
         </div>

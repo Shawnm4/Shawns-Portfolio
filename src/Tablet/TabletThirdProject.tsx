@@ -24,24 +24,28 @@ export default function TabletThirdProject() {
         <div className=" flex justify-center">
           <div className=" w-11/12 flex gap-10 justify-between">
             <div className="w-1/2">
-              <div className="text-4xl font-bold mb-1  ">
-                Salem Union RZUA Church
+              <div className="text-4xl font-bold mb-1 underline  ">
+                <a
+                  href="https://salemunionrzuachurch.vercel.app/"
+                  target="_blank"
+                >
+                  Salem Union RZUA Church
+                </a>
               </div>
               <div className="text-lg mb-5">
-                I had the opportunity to design and develop a website for a
-                local church, aiming to create a digital space that reflects the
-                church's welcoming community and spiritual mission. The goal was
-                to provide an accessible platform where congregation members and
-                visitors could find information about church services and
-                community outreach initiatives.
+                This website was made for a local church. It was developed to
+                share information about the church for people curious about the
+                activities or interested in visiting.
               </div>
-              <div className=" text-lg mb-5 hidden lg:inline-block">
-                As the sole developer working on the website, I handled
-                everything from start to end. First, I talked with the church
-                leaders to understand what they wanted for their website. Then,
-                I designed a website that looks good and is easy for everyone to
-                use. Also, I made sure the website works well on all devices,
-                like smartphones, tablets, and computers.
+              <div className=" text-lg mb-5 hidden md:inline-block">
+                <ul className="mb-20">
+                  <li>
+                    &#8226; I worked with the customer to leave them satisfied.
+                  </li>
+                  <li>
+                    &#8226; I also wireframed and designed it from scratch.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 justify-self-end">
@@ -81,13 +85,17 @@ export default function TabletThirdProject() {
               <div className="flex gap-4 p-2">
                 <Tooltip title="HTML">
                   <figure>
-                    <img className="w-14" src="/html.png" alt="htmllogo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/html.png"
+                      alt="htmllogo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Javascript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/js.png"
                       alt="javascriptlogo.png"
                     />
@@ -96,7 +104,7 @@ export default function TabletThirdProject() {
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -104,36 +112,52 @@ export default function TabletThirdProject() {
                 </Tooltip>
                 <Tooltip title="React">
                   <figure>
-                    <img className="w-14" src="/react.png" alt="react logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/4react.png"
+                      alt="react logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Git">
                   <figure>
-                    <img className="w-14" src="/git.png" alt="git logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/2git.png"
+                      alt="git logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-14" src="/css-3.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/css-3.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
                   <figure>
-                    <img className="w-14" src="/tailwind.png" alt="css logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/TailwindCSS.png"
+                      alt="css logo"
+                    />
                   </figure>
                 </Tooltip>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-6 text-lg  lg:hidden">
+        {/* <div className="p-6 text-lg  lg:hidden">
           As the sole developer working on the website, I handled everything
           from start to end. First, I talked with the church leaders to
           understand what they wanted for their website. Then, I designed a
           website that looks good and is easy for everyone to use. Also, I made
           sure the website works well on all devices, like smartphones, tablets,
           and computers.
-        </div>
+        </div> */}
       </div>
       <div className="custom-shape-divider-bottom-1711290880">
         <svg

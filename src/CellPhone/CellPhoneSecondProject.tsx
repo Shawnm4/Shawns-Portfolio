@@ -31,7 +31,15 @@ export default function CellPhoneSecondProject() {
         </svg>
       </div>
       <div>
-        <div className="text-4xl font-bold ml-2 mb-5">ChainSight</div>
+        <div className="text-4xl font-bold ml-2 mb-5 underline">
+          {" "}
+          <a
+            href="https://chainsight-crypto-tracking.vercel.app/"
+            target="_blank"
+          >
+            ChainSight
+          </a>
+        </div>
         <div className="mb-5 underline text-2xl ml-2 font-bold">
           <a
             href="https://chainsight-crypto-tracking.vercel.app/"
@@ -56,20 +64,21 @@ export default function CellPhoneSecondProject() {
           style={{ fontFamily: "Inter" }}
           className="text-center p-6 pb-0 mb-4 text-xl"
         >
-          The main goal of this project was to practice using APIs. As the
-          developer, I was in charge of creating CryptoPulse from start to
-          finish. This included coming up with the idea, designing it, building
-          it, and making sure the app helped users with useful information.
+          {" "}
+          ChainSight is an app I developed to track the current market stats of
+          the top 25 cryptocurrencies.
         </div>
         <div
           style={{ fontFamily: "Inter" }}
           className="text-center pt-0 p-6 text-xl"
         >
-          ChainSight is a user-friendly platform that provides real-time
-          insights and analytics on the cryptocurrency market. Aimed at both
-          novice and experienced investors, the app simplifies the complexities
-          of cryptocurrency trading by offering intuitive monitoring tools, live
-          market updates, and expert analysis.
+          <ul className="">
+            <li className="mb-4">
+              &#8226; I wireframed and designed this project from scratch.
+            </li>
+            <li></li>
+            <li>&#8226; Gained experience using APIs.</li>
+          </ul>
         </div>
         <div
           className="text-2xl text-center"
@@ -85,18 +94,26 @@ export default function CellPhoneSecondProject() {
         <div className="flex gap-4 p-2">
           <Tooltip title="HTML">
             <figure>
-              <img className="w-10" src="/html.png" alt="htmllogo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/html.png"
+                alt="htmllogo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Javascript">
             <figure>
-              <img className="w-10" src="/js.png" alt="javascriptlogo.png" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/js.png"
+                alt="javascriptlogo.png"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Typescript">
             <figure>
               <img
-                className="w-10"
+                className="w-10 drop-shadow-xl"
                 src="/typescript.png"
                 alt="typescript logo"
               />
@@ -104,22 +121,38 @@ export default function CellPhoneSecondProject() {
           </Tooltip>
           <Tooltip title="React">
             <figure>
-              <img className="w-10" src="/react.png" alt="react logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/4react.png"
+                alt="react logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="Git">
             <figure>
-              <img className="w-10" src="/git.png" alt="git logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/giticon.png"
+                alt="git logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/css-3.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/css-3.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
           <Tooltip title="css">
             <figure>
-              <img className="w-10" src="/tailwind.png" alt="css logo" />
+              <img
+                className="w-10 drop-shadow-xl"
+                src="/TailwindCSS.png"
+                alt="css logo"
+              />
             </figure>
           </Tooltip>
         </div>

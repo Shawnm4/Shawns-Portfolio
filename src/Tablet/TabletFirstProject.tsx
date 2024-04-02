@@ -27,30 +27,31 @@ export default function TabletFirstProject() {
         <div className=" flex justify-center">
           <div className=" w-11/12 flex gap-10 justify-between">
             <div className="w-1/2">
-              <div className="text-4xl font-bold mb-1 whitespace-nowrap ">
-                Charlie Glass Admin
+              <div className="text-4xl font-bold mb-1 whitespace-nowrap underline ">
+                <a
+                  href="https://charlie-glass-admin.vercel.app/login"
+                  target="_blank"
+                >
+                  Charlie Glass Admin
+                </a>
               </div>
               <div className="text-lg mb-5">
-                The goal of this project wat to practice basic CRUD actions.
-                This was my first project for a real client. My colleague and I
-                worked together to create a special web app for a business that
-                need help managing their money. Our main aim was to make a tool
-                that makes it easier to keep an eye on finances and also helps
-                with making and handling quotes and invoices. This app is really
-                important for businesses that want to get better at
-                understanding their finances and working more efficiently. I
-                focused on designing the part of the app that users see and
-                interact with, making sure it was easy and pleasant to use.
+                This app was made for Charlie Glass to manage invoices, quotes,
+                and to see profits
               </div>
-              <div className=" text-lg mb-5 hidden lg:inline-block">
-                As a co-developer and designer on this project, I had many
-                roles. I focused on making the part of the app that users see
-                very user-friendly. I also helped set up the system that manages
-                data in the background. Part of my job was to create features
-                that allow users to make, see, download, and print quotes and
-                invoices easily. Plus, I helped include a special dashboard in
-                the app. This dashboard lets the business check on their money
-                and how well they are doing at any time.
+              <div className=" text-lg mb-5 hidden md:inline-block">
+                <ul className="mb-20">
+                  <li>
+                    &#8226; I collaborated with a team of other developers.
+                  </li>
+                  <li>
+                    &#8226; Used git version control, merge request, and went
+                    through rounds of code reviews.
+                  </li>
+                  <li>&#8226;Used wireframing.</li>
+                  <li>&#8226;Created the responsive design.</li>
+                  <li>&#8226;Gained experience using CRUD actions.</li>
+                </ul>
               </div>
             </div>
             <div className="w-1/2 justify-self-end">
@@ -90,13 +91,17 @@ export default function TabletFirstProject() {
               <div className="flex gap-4 p-2">
                 <Tooltip title="HTML">
                   <figure>
-                    <img className="w-14" src="/html.png" alt="htmllogo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/html.png"
+                      alt="htmllogo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Javascript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/js.png"
                       alt="javascriptlogo.png"
                     />
@@ -105,7 +110,7 @@ export default function TabletFirstProject() {
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-14"
+                      className="w-14 drop-shadow-lg"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -113,43 +118,63 @@ export default function TabletFirstProject() {
                 </Tooltip>
                 <Tooltip title="React">
                   <figure>
-                    <img className="w-14" src="/react.png" alt="react logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/4react.png"
+                      alt="react logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="Git">
                   <figure>
-                    <img className="w-14" src="/git.png" alt="git logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/giticon.png"
+                      alt="git logo"
+                    />
                   </figure>
                 </Tooltip>
                 <Tooltip title="css">
-                  <figure>
-                    <img className="w-14" src="/css-3.png" alt="css logo" />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="css">
-                  <figure>
-                    <img className="w-14" src="/tailwind.png" alt="css logo" />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="Node.Js">
                   <figure>
                     <img
-                      className="w-14"
-                      src="/node-js.png"
+                      className="w-14 drop-shadow-lg"
+                      src="/css-3.png"
+                      alt="css logo"
+                    />
+                  </figure>
+                </Tooltip>
+                <Tooltip title="css">
+                  <figure>
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/TailwindCSS.png"
+                      alt="css logo"
+                    />
+                  </figure>
+                </Tooltip>
+                <Tooltip title="NodeJs">
+                  <figure>
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/nodeJS.png"
                       alt="nodejs logo"
                     />
                   </figure>
                 </Tooltip>
                 <Tooltip title="SQL">
                   <figure>
-                    <img className="w-14" src="/sql.png" alt="sql logo" />
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/sql2.png"
+                      alt="sql logo"
+                    />
                   </figure>
                 </Tooltip>
               </div>
             </div>
           </div>
         </div>
-        <div className="p-6 text-lg  lg:hidden">
+        {/* <div className="p-6 text-lg  lg:hidden">
           As a co-developer and designer on this project, I had many roles. I
           worked closely with our client to really understand what they needed.
           This helped us make sure our app would help their business the way
@@ -160,7 +185,7 @@ export default function TabletFirstProject() {
           Plus, I helped include a special dashboard in the app. This dashboard
           lets businesses check on their money and how well they are doing at
           any time.
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -22,24 +22,20 @@
 
 .githubIcon {
   transition: transform 0.3s ease;
+  position: absolute;
 }
 
 .githubIcon:hover {
-  transform: scale(2.1);
+  transform: scale(1.1);
 }
 
 .linkedinIcon {
   transition: transform 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .linkedinIcon:hover {
-  transform: scale(2.1);
-}
-
-.emailIcon {
-  transition: transform 0.3s ease;
-}
-
-.emailIcon:hover {
-  transform: scale(2.1);
+  transform: scale(1.1);
 }

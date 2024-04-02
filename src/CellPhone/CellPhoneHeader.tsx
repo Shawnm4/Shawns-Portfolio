@@ -1,10 +1,5 @@
-import {
-  GithubOutlined,
-  LinkedinOutlined,
-  MailOutlined,
-} from "@ant-design/icons";
+import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import { EColors } from "../Util/EColors";
-import { Tooltip } from "antd";
 
 export default function CellPhoneHeader() {
   return (
@@ -33,6 +28,12 @@ export default function CellPhoneHeader() {
           >
             I am a software engineer with a passion for excelling in my field.
           </div>
+          <div
+            className="text-2xl mt-4 "
+            style={{ fontWeight: "600", color: EColors.textGray2 }}
+          >
+            shawnrmonty@gmail.com
+          </div>
         </div>
       </div>
       <div className="flex justify-center mb-10">
@@ -50,22 +51,17 @@ export default function CellPhoneHeader() {
               <LinkedinOutlined />
             </a>
           </li>
-          <li>
-            <a href="mailto:shawnrmonty@gmail.com" target="_blank">
-              <MailOutlined />
-            </a>
-          </li>
         </ul>
       </div>
-      <div className="text-2xl text-center" style={{ fontFamily: "Orbitron" }}>
+      {/* <div className="text-2xl text-center" style={{ fontFamily: "Orbitron" }}>
         <div
           style={{ whiteSpace: "nowrap", fontWeight: "600" }}
           className="mr-3"
         >
           Tech Stack
         </div>
-      </div>
-      <div className="flex justify-center mb-10">
+      </div> */}
+      {/* <div className="flex justify-center mb-10">
         <div className="flex gap-4 p-2">
           <Tooltip title="HTML">
             <figure>
@@ -117,7 +113,7 @@ export default function CellPhoneHeader() {
             </figure>
           </Tooltip>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

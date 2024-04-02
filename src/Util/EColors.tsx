@@ -2,5 +2,6 @@ export const EColors = {
   textGray: "#ced4da",
   textGray2: "#868e96",
   charlieprimary: "#fab005",
-  salemprimary: "#e03131",
+  salemprimary: "#fa5252",
+  hover: "#4dabf7",
 };
