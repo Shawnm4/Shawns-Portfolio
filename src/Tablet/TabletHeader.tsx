@@ -1,4 +1,3 @@
-import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import { Tooltip } from "antd";
 import { EColors } from "../Util/EColors";
 
