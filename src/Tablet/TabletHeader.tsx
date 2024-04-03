@@ -53,6 +53,15 @@ export default function TabletHeader() {
                     />
                   </figure>
                 </Tooltip>
+                <Tooltip title="CSS">
+                  <figure>
+                    <img
+                      className="w-14 drop-shadow-lg"
+                      src="/css-3.png"
+                      alt="css logo"
+                    />
+                  </figure>
+                </Tooltip>
                 <Tooltip title="Javascript">
                   <figure>
                     <img
@@ -89,16 +98,7 @@ export default function TabletHeader() {
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="css">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/css-3.png"
-                      alt="css logo"
-                    />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="css">
+                <Tooltip title="TailWindCss">
                   <figure>
                     <img
                       className="w-14 drop-shadow-lg"
@@ -113,15 +113,6 @@ export default function TabletHeader() {
                       className="w-14 drop-shadow-lg"
                       src="/nodeJS.png"
                       alt="nodejs logo"
-                    />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="SQL">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/sql2.png"
-                      alt="sql logo"
                     />
                   </figure>
                 </Tooltip>

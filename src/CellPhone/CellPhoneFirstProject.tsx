@@ -87,24 +87,6 @@ export default function CellPhoneFirstProject() {
           </div>
         </div>
         <div className="flex gap-4 p-2">
-          <Tooltip title="HTML">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/html.png"
-                alt="htmllogo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="Javascript">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/js.png"
-                alt="javascriptlogo.png"
-              />
-            </figure>
-          </Tooltip>
           <Tooltip title="Typescript">
             <figure>
               <img
@@ -132,7 +114,7 @@ export default function CellPhoneFirstProject() {
               />
             </figure>
           </Tooltip>
-          <Tooltip title="css">
+          <Tooltip title="CSS">
             <figure>
               <img
                 className="w-10 drop-shadow-xl"
@@ -141,7 +123,7 @@ export default function CellPhoneFirstProject() {
               />
             </figure>
           </Tooltip>
-          <Tooltip title="css">
+          <Tooltip title="TailWindCSS">
             <figure>
               <img
                 className="w-10 drop-shadow-xl"

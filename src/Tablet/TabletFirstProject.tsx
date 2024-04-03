@@ -89,24 +89,6 @@ export default function TabletFirstProject() {
                 </div>
               </div>
               <div className="flex gap-4 p-2">
-                <Tooltip title="HTML">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/html.png"
-                      alt="htmllogo"
-                    />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="Javascript">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/js.png"
-                      alt="javascriptlogo.png"
-                    />
-                  </figure>
-                </Tooltip>
                 <Tooltip title="Typescript">
                   <figure>
                     <img
@@ -134,7 +116,7 @@ export default function TabletFirstProject() {
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="css">
+                <Tooltip title="CSS">
                   <figure>
                     <img
                       className="w-14 drop-shadow-lg"
@@ -143,7 +125,7 @@ export default function TabletFirstProject() {
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="css">
+                <Tooltip title="TailWindCSS">
                   <figure>
                     <img
                       className="w-14 drop-shadow-lg"
@@ -152,7 +134,7 @@ export default function TabletFirstProject() {
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="NodeJs">
+                <Tooltip title="Node-Js">
                   <figure>
                     <img
                       className="w-14 drop-shadow-lg"
@@ -174,18 +156,6 @@ export default function TabletFirstProject() {
             </div>
           </div>
         </div>
-        {/* <div className="p-6 text-lg  lg:hidden">
-          As a co-developer and designer on this project, I had many roles. I
-          worked closely with our client to really understand what they needed.
-          This helped us make sure our app would help their business the way
-          they wanted. I focused on making the part of the app that users see
-          very user-friendly. I also helped set up the system that manages data
-          in the background. Part of my job was to create features that allow
-          users to make, see, download, and print quotes and invoices easily.
-          Plus, I helped include a special dashboard in the app. This dashboard
-          lets businesses check on their money and how well they are doing at
-          any time.
-        </div> */}
       </div>
     </div>
   );

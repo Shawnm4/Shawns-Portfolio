@@ -91,70 +91,54 @@ export default function CellPhoneSecondProject() {
             Tech Stack Used
           </div>
         </div>
-        <div className="flex gap-4 p-2">
-          <Tooltip title="HTML">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/html.png"
-                alt="htmllogo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="Javascript">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/js.png"
-                alt="javascriptlogo.png"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="Typescript">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/typescript.png"
-                alt="typescript logo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="React">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/4react.png"
-                alt="react logo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="Git">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/giticon.png"
-                alt="git logo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="css">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/css-3.png"
-                alt="css logo"
-              />
-            </figure>
-          </Tooltip>
-          <Tooltip title="css">
-            <figure>
-              <img
-                className="w-10 drop-shadow-xl"
-                src="/TailwindCSS.png"
-                alt="css logo"
-              />
-            </figure>
-          </Tooltip>
+        <div className="flex justify-center">
+          <div className="flex gap-4 p-2 ">
+            <Tooltip title="Typescript">
+              <figure>
+                <img
+                  className="w-10 drop-shadow-xl"
+                  src="/typescript.png"
+                  alt="typescript logo"
+                />
+              </figure>
+            </Tooltip>
+            <Tooltip title="React">
+              <figure>
+                <img
+                  className="w-10 drop-shadow-xl"
+                  src="/4react.png"
+                  alt="react logo"
+                />
+              </figure>
+            </Tooltip>
+            <Tooltip title="Git">
+              <figure>
+                <img
+                  className="w-10 drop-shadow-xl"
+                  src="/giticon.png"
+                  alt="git logo"
+                />
+              </figure>
+            </Tooltip>
+            <Tooltip title="CSS">
+              <figure>
+                <img
+                  className="w-10 drop-shadow-xl"
+                  src="/css-3.png"
+                  alt="css logo"
+                />
+              </figure>
+            </Tooltip>
+            <Tooltip title="TailWindCSS">
+              <figure className="self-center">
+                <img
+                  className="w-10 drop-shadow-xl "
+                  src="/TailwindCSS.png"
+                  alt="css logo"
+                />
+              </figure>
+            </Tooltip>
+          </div>
         </div>
       </div>
     </div>

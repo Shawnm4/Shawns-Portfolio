@@ -132,16 +132,6 @@ export default function SecondProject() {
                   <div className="mr-4">Tech Stack Used</div>
                 </div>
                 <div className="flex gap-4">
-                  <Tooltip title="HTML">
-                    <figure>
-                      <img
-                        className="w-10 drop-shadow-lg"
-                        src="/html.png"
-                        alt="htmllogo"
-                      />
-                    </figure>
-                  </Tooltip>
-
                   <Tooltip title="Typescript">
                     <figure>
                       <img

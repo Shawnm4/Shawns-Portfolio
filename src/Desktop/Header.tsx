@@ -44,6 +44,11 @@ export default function Header() {
                 <img className="w-10  " src="/html.png" alt="htmllogo" />
               </figure>
             </Tooltip>
+            <Tooltip title="CSS">
+              <figure>
+                <img className="w-10" src="/css-3.png" alt="css logo" />
+              </figure>
+            </Tooltip>
             <Tooltip title="Javascript">
               <figure>
                 <img className="w-10" src="/js.png" alt="javascriptlogo.png" />
@@ -66,11 +71,6 @@ export default function Header() {
             <Tooltip title="Git">
               <figure>
                 <img className="w-10" src="/giticon.png" alt="git logo" />
-              </figure>
-            </Tooltip>
-            <Tooltip title="CSS">
-              <figure>
-                <img className="w-10" src="/css-3.png" alt="css logo" />
               </figure>
             </Tooltip>
             <Tooltip title="TailWind CSS">

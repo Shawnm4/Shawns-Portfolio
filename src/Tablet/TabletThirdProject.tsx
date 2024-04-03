@@ -83,28 +83,10 @@ export default function TabletThirdProject() {
                 </div>
               </div>
               <div className="flex gap-4 p-2">
-                <Tooltip title="HTML">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/html.png"
-                      alt="htmllogo"
-                    />
-                  </figure>
-                </Tooltip>
-                <Tooltip title="Javascript">
-                  <figure>
-                    <img
-                      className="w-14 drop-shadow-lg"
-                      src="/js.png"
-                      alt="javascriptlogo.png"
-                    />
-                  </figure>
-                </Tooltip>
                 <Tooltip title="Typescript">
                   <figure>
                     <img
-                      className="w-14 drop-shadow-lg"
+                      className="w-10 drop-shadow-lg"
                       src="/typescript.png"
                       alt="typescript logo"
                     />
@@ -113,7 +95,7 @@ export default function TabletThirdProject() {
                 <Tooltip title="React">
                   <figure>
                     <img
-                      className="w-14 drop-shadow-lg"
+                      className="w-10 drop-shadow-lg"
                       src="/4react.png"
                       alt="react logo"
                     />
@@ -122,25 +104,25 @@ export default function TabletThirdProject() {
                 <Tooltip title="Git">
                   <figure>
                     <img
-                      className="w-14 drop-shadow-lg"
+                      className="w-10 drop-shadow-lg"
                       src="/2git.png"
                       alt="git logo"
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="css">
+                <Tooltip title="CSS">
                   <figure>
                     <img
-                      className="w-14 drop-shadow-lg"
+                      className="w-10 drop-shadow-lg"
                       src="/css-3.png"
                       alt="css logo"
                     />
                   </figure>
                 </Tooltip>
-                <Tooltip title="css">
+                <Tooltip title="TailWindCSS">
                   <figure>
                     <img
-                      className="w-14 drop-shadow-lg"
+                      className="w-10 drop-shadow-lg"
                       src="/TailwindCSS.png"
                       alt="css logo"
                     />
@@ -150,14 +132,6 @@ export default function TabletThirdProject() {
             </div>
           </div>
         </div>
-        {/* <div className="p-6 text-lg  lg:hidden">
-          As the sole developer working on the website, I handled everything
-          from start to end. First, I talked with the church leaders to
-          understand what they wanted for their website. Then, I designed a
-          website that looks good and is easy for everyone to use. Also, I made
-          sure the website works well on all devices, like smartphones, tablets,
-          and computers.
-        </div> */}
       </div>
       <div className="custom-shape-divider-bottom-1711290880">
         <svg
