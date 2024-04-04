@@ -138,12 +138,7 @@ export default function ThirdProject() {
                   width={700}
                   preview={{
                     imageRender: () => (
-                      <video
-                        muted
-                        width="60%"
-                        controls
-                        src="/salemportfolio.mp4"
-                      />
+                      <video muted width="60%" controls src="/LASTCHURCH.mp4" />
                     ),
                     toolbarRender: () => null,
                   }}

@@ -67,7 +67,7 @@ export default function TabletThirdProject() {
               </div>
               <div className=" justify-self-end mb-14 mt-6  ">
                 <video className=" h-3/4 rounded-lg shadow-2xl " controls>
-                  <source src="/salemportfolio.mp4" type="video/mp4" />
+                  <source src="/LASTCHURCH.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
