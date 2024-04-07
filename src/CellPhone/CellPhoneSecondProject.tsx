@@ -55,7 +55,7 @@ export default function CellPhoneSecondProject() {
         </div>
         <div className="w-full flex justify-center   ">
           <video className=" w-11/12 rounded-lg shadow-2xl " controls>
-            <source src="/LASTCRYPT.mp4" type="video/mp4" />
+            <source src="/updated.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

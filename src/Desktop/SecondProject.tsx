@@ -85,7 +85,7 @@ export default function SecondProject() {
                   width={700}
                   preview={{
                     imageRender: () => (
-                      <video muted width="60%" controls src="/LASTCRYPT.mp4" />
+                      <video muted width="60%" controls src="/updated.mp4" />
                     ),
                     toolbarRender: () => null,
                   }}
