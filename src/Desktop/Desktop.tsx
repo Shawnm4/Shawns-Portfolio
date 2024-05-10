@@ -11,7 +11,7 @@ export default function Desktop() {
       <FirstProject />
       <SecondProject />
       <ThirdProject />
-      <div className="flex text-5xl gap-20 bottom-10 left-10 mr-10  fixed cursor-pointer ">
+      {/* <div className="flex text-5xl gap-20 bottom-10 left-10 mr-10  fixed cursor-pointer ">
         <a href="https://github.com/Shawnm4" target="_blank">
           <GithubOutlined />
         </a>
@@ -21,7 +21,7 @@ export default function Desktop() {
         >
           <LinkedinOutlined />
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
