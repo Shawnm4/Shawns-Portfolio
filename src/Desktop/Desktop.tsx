@@ -1,4 +1,3 @@
-import { GithubOutlined, LinkedinOutlined } from "@ant-design/icons";
 import FirstProject from "./FirstProject";
 import Header from "./Header";
 import SecondProject from "./SecondProject";
