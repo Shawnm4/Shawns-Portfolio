@@ -1,3 +1,8 @@
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  SolutionOutlined,
+} from "@ant-design/icons";
 import { EColors } from "../Util/EColors";
 import { Tooltip } from "antd";
 
@@ -30,6 +35,29 @@ export default function Header() {
             style={{ fontWeight: "600", color: EColors.textGray2 }}
           >
             shawnrmonty@gmail.com
+          </div>
+          <div className="flex gap-10 mt-4 text-4xl ">
+            <Tooltip title="Github">
+              <a href="https://github.com/Shawnm4" target="_blank">
+                <GithubOutlined className="cursor-pointer" />
+              </a>
+            </Tooltip>
+            <Tooltip title="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/shawn-montgomerydev/"
+                target="_blank"
+              >
+                <LinkedinOutlined className="cursor-pointer" />
+              </a>
+            </Tooltip>
+            <Tooltip title="Resume">
+              <a
+                href="https://docs.google.com/document/d/1eJvmyEavzcHX7RDChIxFXISjjSNYN0gB8rPaOlKPT-k/edit?usp=sharing"
+                target="_blank"
+              >
+                <SolutionOutlined className="cursor-pointer" />
+              </a>
+            </Tooltip>
           </div>
         </div>
         <div className="flex items-end">
