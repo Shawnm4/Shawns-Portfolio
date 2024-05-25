@@ -59,10 +59,7 @@ export default function SecondProject() {
                   onMouseLeave={mouseLeave}
                   className="mb-2 underline text-2xl"
                 >
-                  <a
-                    href="https://chainsight-crypto-tracking.vercel.app/"
-                    target="_blank"
-                  >
+                  <a href="https://ml-loan-app.vercel.app/" target="_blank">
                     Visit Live Site &darr;
                   </a>
                 </div>
@@ -72,7 +69,7 @@ export default function SecondProject() {
                   className="underline text-2xl"
                 >
                   <a
-                    href="https://github.com/Shawnm4/Cryptotracker"
+                    href="https://github.com/Shawnm4/ml-loan-app"
                     target="_blank"
                   >
                     View Code &darr;
@@ -85,11 +82,16 @@ export default function SecondProject() {
                   width={700}
                   preview={{
                     imageRender: () => (
-                      <video muted width="60%" controls src="/updated.mp4" />
+                      <video
+                        muted
+                        width="60%"
+                        controls
+                        src="/newmlVIDOEE.mp4"
+                      />
                     ),
                     toolbarRender: () => null,
                   }}
-                  src="/crypto.png"
+                  src="/loanapp.png"
                 />
               </div>
               <div className="text-xl font-bold text-center ">
@@ -103,23 +105,27 @@ export default function SecondProject() {
                 onMouseLeave={mouseLeave}
                 className="text-6xl font-bold mb-5 mt-8 underline cursor-pointer "
               >
-                <a
-                  href="https://chainsight-crypto-tracking.vercel.app/"
-                  target="_blank"
-                >
-                  ChainSight
+                <a href="https://ml-loan-app.vercel.app/" target="_blank">
+                  LoanGuard
                 </a>
               </div>
               <div className="text-lg mb-5 mr-10">
-                ChainSight is an app I developed to track the current market
-                stats of the top 25 cryptocurrencies.
+                LoanGuard is an application that uses a machine learning AI
+                model that I created to predict the likelihood of a loan being
+                paid back.
               </div>
               <ul className="mb-20">
-                <li>
-                  &#8226; I wireframed and designed this project from scratch.
+                <li className="mb-2">
+                  &#8226; I used real data to train the model in a Jupyter
+                  Notebook with Sci-kit Learn with 85% accuracy.
                 </li>
-                <li></li>
-                <li>&#8226; Gained experience using APIs.</li>
+                <li className="w-3/4 mb-2">
+                  &#8226;I integrated the model into a Flask backend so that it
+                  can predict user input data from the frontend by creating an
+                  api.
+                </li>
+                <li className="mb-2">&#8226;Hosted the backend on Heroku.</li>
+                <li>&#8226;Created a user-friendly UI using React.js</li>
               </ul>
 
               <div className="flex items-end mb-2">
@@ -127,6 +133,33 @@ export default function SecondProject() {
                   <div className="mr-4">Tech Stack Used</div>
                 </div>
                 <div className="flex gap-4">
+                  <Tooltip title="Flask">
+                    <figure>
+                      <img
+                        className="w-12 drop-shadow-lg"
+                        src="/Flask.png"
+                        alt="typescript logo"
+                      />
+                    </figure>
+                  </Tooltip>
+                  <Tooltip title="Python">
+                    <figure>
+                      <img
+                        className="w-12 drop-shadow-lg"
+                        src="/Python (1).png"
+                        alt="typescript logo"
+                      />
+                    </figure>
+                  </Tooltip>
+                  <Tooltip title="Scikit Learn">
+                    <figure>
+                      <img
+                        className="w-12 drop-shadow-lg"
+                        src="/scikit-learn.png"
+                        alt="typescript logo"
+                      />
+                    </figure>
+                  </Tooltip>
                   <Tooltip title="Typescript">
                     <figure>
                       <img

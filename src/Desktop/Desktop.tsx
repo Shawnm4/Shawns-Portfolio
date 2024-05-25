@@ -1,4 +1,5 @@
 import FirstProject from "./FirstProject";
+import FourthProject from "./FourthProject";
 import Header from "./Header";
 import SecondProject from "./SecondProject";
 import ThirdProject from "./ThirdProject";
@@ -10,6 +11,7 @@ export default function Desktop() {
       <FirstProject />
       <SecondProject />
       <ThirdProject />
+      <FourthProject />
       {/* <div className="flex text-5xl gap-20 bottom-10 left-10 mr-10  fixed cursor-pointer ">
         <a href="https://github.com/Shawnm4" target="_blank">
           <GithubOutlined />

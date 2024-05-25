@@ -67,6 +67,7 @@ export default function Header() {
             </div>
           </div>
           <div className="flex gap-4 mr-20">
+            <Tooltip title="HTML"></Tooltip>
             <Tooltip title="HTML">
               <figure>
                 <img className="w-10  " src="/html.png" alt="htmllogo" />
@@ -109,6 +110,25 @@ export default function Header() {
             <Tooltip title="Node.Js">
               <figure>
                 <img className="w-10" src="/nodeJS.png" alt="nodejs logo" />
+              </figure>
+            </Tooltip>
+            <Tooltip title="Python">
+              <figure>
+                <img className="w-10" src="/Python (1).png" alt="python logo" />
+              </figure>
+            </Tooltip>
+            <Tooltip title="Flask">
+              <figure>
+                <img className="w-10" src="/Flask.png" alt="python logo" />
+              </figure>
+            </Tooltip>
+            <Tooltip title="Sci-Kit Learn">
+              <figure>
+                <img
+                  className="w-10"
+                  src="/scikit-learn.png"
+                  alt="Sci-Kit Learn logo"
+                />
               </figure>
             </Tooltip>
           </div>
