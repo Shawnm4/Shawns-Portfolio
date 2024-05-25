@@ -71,7 +71,10 @@ export default function FourthProject() {
                   onMouseLeave={mouseLeave}
                   className="underline text-2xl"
                 >
-                  <a href="" target="_blank">
+                  <a
+                    href="https://github.com/Shawnm4/salemunion"
+                    target="_blank"
+                  >
                     View Code &darr;
                   </a>
                 </div>
@@ -82,11 +85,11 @@ export default function FourthProject() {
                   width={700}
                   preview={{
                     imageRender: () => (
-                      <video muted width="60%" controls src="/updated.mp4" />
+                      <video muted width="60%" controls src="/LASTCHURCH.mp4" />
                     ),
                     toolbarRender: () => null,
                   }}
-                  src="/crypto.png"
+                  src="/salem.png"
                 />
               </div>
               <div className="text-xl font-bold text-center ">
