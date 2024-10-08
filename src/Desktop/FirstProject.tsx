@@ -49,19 +49,39 @@ export default function FirstProject() {
                 Charlie Glass Admin
               </a>
             </div>
-            <div className="text-lg mb-5">
+            <div className="text-xl mb-5">
               This app was made for Charlie Glass to manage invoices, quotes,
-              and to see profits
+              and to see profits.
             </div>
-            <ul className="mb-20">
-              <li>&#8226; I collaborated with a team of other developers.</li>
-              <li>
-                &#8226; Used git version control, merge request, and went
-                through rounds of code reviews.
+            <ul className="mb-20 text-lg">
+              <li className="mb-2">
+                &#8226; <strong>Co-designed</strong> and
+                <strong> developed</strong> a business web app,
+                <strong> reducing admin workload by 30%.</strong>
               </li>
-              <li>&#8226;Used wireframing.</li>
-              <li>&#8226;Created the responsive design.</li>
-              <li>&#8226;Gained experience using CRUD actions.</li>
+              <li className="mb-2">
+                &#8226; <strong>Collaborated</strong> using
+                <strong> Git </strong>
+                for <strong>version control,</strong> managed{" "}
+                <strong>merge requests, </strong>
+                and conducted <strong>code reviews</strong>.
+              </li>
+              <li className="mb-2">
+                &#8226; Developed a <strong>responsive UI</strong> with
+                <strong>Tailwind CSS </strong>
+                and <strong>Ant Design</strong>; implemented
+                <strong> React Hooks</strong> and <strong>React Query </strong>
+                for efficient <strong>data fetching</strong>.
+              </li>
+              <li className="mb-2">
+                &#8226; Built full <strong>CRUD functionality</strong> with
+                <strong>SQL</strong>,<strong> React.js</strong>, and
+                <strong> Node.js</strong>.
+              </li>
+              <li>
+                &#8226; Managed application state via
+                <strong> Context API</strong>.
+              </li>
             </ul>
 
             <div className="flex items-end mb-2 ">

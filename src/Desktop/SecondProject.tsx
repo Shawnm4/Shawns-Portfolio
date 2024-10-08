@@ -59,7 +59,10 @@ export default function SecondProject() {
                   onMouseLeave={mouseLeave}
                   className="mb-2 underline text-2xl"
                 >
-                  <a href="https://ml-loan-app.vercel.app/" target="_blank">
+                  <a
+                    href="https://esteemed-families.vercel.app/"
+                    target="_blank"
+                  >
                     Visit Live Site &darr;
                   </a>
                 </div>
@@ -69,7 +72,7 @@ export default function SecondProject() {
                   className="underline text-2xl"
                 >
                   <a
-                    href="https://github.com/Shawnm4/ml-loan-app"
+                    href="https://github.com/Shawnm4/esteemed-families"
                     target="_blank"
                   >
                     View Code &darr;
@@ -86,12 +89,12 @@ export default function SecondProject() {
                         muted
                         width="60%"
                         controls
-                        src="/newmlVIDOEE.mp4"
+                        src="/esteemed-families-demo.mp4"
                       />
                     ),
                     toolbarRender: () => null,
                   }}
-                  src="/loanapp.png"
+                  src="/esteemed-families.png"
                 />
               </div>
               <div className="text-xl font-bold text-center ">
@@ -105,27 +108,29 @@ export default function SecondProject() {
                 onMouseLeave={mouseLeave}
                 className="text-6xl font-bold mb-5 mt-8 underline cursor-pointer "
               >
-                <a href="https://ml-loan-app.vercel.app/" target="_blank">
-                  LoanGuard
+                <a href="https://esteemed-families.vercel.app/" target="_blank">
+                  Esteemed Families LLC
                 </a>
               </div>
-              <div className="text-lg mb-5 mr-10">
-                LoanGuard is an application that uses a machine learning AI
-                model that I created to predict the likelihood of a loan being
-                paid back.
+              <div className="text-xl mb-5 mr-10">
+                This website was created for a therapy company to enhance client
+                engagement and provide easy access to services.
               </div>
-              <ul className="mb-20">
+              <ul className="mb-20 text-lg">
                 <li className="mb-2">
-                  &#8226; I used real data to train the model in a Jupyter
-                  Notebook with Sci-kit Learn with 85% accuracy.
+                  &#8226; Designed a fully responsive website, increasing user
+                  engagement.
                 </li>
                 <li className="w-3/4 mb-2">
-                  &#8226;I integrated the model into a Flask backend so that it
-                  can predict user input data from the frontend by creating an
-                  api.
+                  &#8226; Built UI using <strong>Ant Design</strong> and
+                  <strong> Tailwind CSS</strong>, while managing state with
+                  <strong> React Hooks</strong> and <strong>TypeScript</strong>.
                 </li>
-                <li className="mb-2">&#8226;Hosted the backend on Heroku.</li>
-                <li>&#8226;Created a user-friendly UI using React.js</li>
+                <li className=" w-3/4 mb-2">
+                  &#8226; Implemented smooth navigation with
+                  <strong> React Router</strong>, improving user experience and
+                  <strong> SEO</strong>.
+                </li>
               </ul>
 
               <div className="flex items-end mb-2">
@@ -133,7 +138,7 @@ export default function SecondProject() {
                   <div className="mr-4">Tech Stack Used</div>
                 </div>
                 <div className="flex gap-4">
-                  <Tooltip title="Flask">
+                  {/* <Tooltip title="Flask">
                     <figure>
                       <img
                         className="w-12 drop-shadow-lg"
@@ -141,8 +146,8 @@ export default function SecondProject() {
                         alt="typescript logo"
                       />
                     </figure>
-                  </Tooltip>
-                  <Tooltip title="Python">
+                  </Tooltip> */}
+                  {/* <Tooltip title="Python">
                     <figure>
                       <img
                         className="w-12 drop-shadow-lg"
@@ -150,8 +155,8 @@ export default function SecondProject() {
                         alt="typescript logo"
                       />
                     </figure>
-                  </Tooltip>
-                  <Tooltip title="Scikit Learn">
+                  </Tooltip> */}
+                  {/* <Tooltip title="Scikit Learn">
                     <figure>
                       <img
                         className="w-12 drop-shadow-lg"
@@ -159,7 +164,7 @@ export default function SecondProject() {
                         alt="typescript logo"
                       />
                     </figure>
-                  </Tooltip>
+                  </Tooltip> */}
                   <Tooltip title="Typescript">
                     <figure>
                       <img

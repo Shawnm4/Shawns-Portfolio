@@ -52,7 +52,7 @@ export default function Header() {
             </Tooltip>
             <Tooltip title="Resume">
               <a
-                href="https://docs.google.com/document/d/1eJvmyEavzcHX7RDChIxFXISjjSNYN0gB8rPaOlKPT-k/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1SJbQ08CFvR13VR5WwuODf2j7vUhiCn0tnnXoPN6_ZTg/edit?usp=sharing"
                 target="_blank"
               >
                 <SolutionOutlined className="cursor-pointer" />

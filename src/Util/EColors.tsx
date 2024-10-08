@@ -5,4 +5,5 @@ export const EColors = {
   salemprimary: "#fa5252",
   hover: "#4dabf7",
   green: "#40c057",
+  loanGuardPrimary: "#7048e8",
 };

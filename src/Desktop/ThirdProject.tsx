@@ -50,15 +50,42 @@ export default function ThirdProject() {
                   ChainSight
                 </a>
               </div>
-              <div className="text-lg mb-5 ">
+              <div className="text-xl mb-5 ">
                 ChainSight is an app I developed to track the current market
                 stats of the top 25 cryptocurrencies.
               </div>
-              <ul className="mb-20">
+              <ul className="mb-20 text-lg">
                 <li>
-                  &#8226; I wireframed and designed this project from scratch.
+                  &#8226; <strong>Designed wireframes</strong> and prototypes to
+                  map out user flows and application structure.
                 </li>
-                <li>&#8226; Gained experience using APIs.</li>
+                <li>
+                  &#8226; Developed a responsive web application using{" "}
+                  <strong>TypeScript</strong>, <strong>React</strong>, and
+                  <strong> Tailwind CSS</strong>, ensuring seamless performance
+                  across devices.
+                </li>
+                <li>
+                  &#8226; Integrated <strong>React Query</strong> for efficient
+                  API data fetching and state synchronization.
+                </li>
+                <li>
+                  &#8226; Utilized <strong>Ant Design</strong> for creating a
+                  modern, intuitive user interface.
+                </li>
+                <li>
+                  &#8226; Connected to multiple <strong>APIs</strong> for
+                  dynamic content updates, ensuring data consistency and
+                  responsiveness.
+                </li>
+                <li>
+                  &#8226; Employed <strong>TypeScript</strong> to ensure type
+                  safety and code maintainability throughout the project.
+                </li>
+                <li>
+                  &#8226; Implemented a fully <strong>responsive</strong> UI
+                  with custom components and flexible layouts.
+                </li>
               </ul>
               <div className="flex items-end mb-2 justify-end ">
                 <div className="text-2xl" style={{ fontFamily: "Orbitron" }}>
