@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .animate-slide-in {
+    animation: slideIn 1s ease-out;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.animate-left {
+  animation: slideInLeft 0.5s ease-out forwards;
+}
+
+.animate-right {
+  animation: slideInRight 0.5s ease-out forwards;
+}

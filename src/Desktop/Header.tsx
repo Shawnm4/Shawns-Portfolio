@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <section
         style={{ fontFamily: "Inter" }}
-        className="mt-72 ml-44 flex justify-between gap-40"
+        className="mt-72 ml-44 flex justify-between gap-40 animate-slide-in"
       >
         <div className="drop-shadow-md">
           <div

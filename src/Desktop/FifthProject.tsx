@@ -47,12 +47,12 @@ export default function FifthProject() {
                 LoanGuard
               </a>
             </div>
-            <div className="text-lg mb-5">
+            <div className="text-xl mb-5">
               LoanGuard is an application that uses a machine learning AI model
               that I created to predict the likelihood of a loan being paid
               back.
             </div>
-            <ul className="mb-20">
+            <ul className="mb-20 text-lg">
               <li>
                 &#8226; Built and deployed machine learning models using
                 <strong> Python</strong>, <strong>Flask</strong>, and

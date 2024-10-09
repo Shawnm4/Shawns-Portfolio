@@ -9,6 +9,7 @@ export default function FirstProject() {
   function mouseLeave(e: React.MouseEvent<HTMLElement>) {
     e.currentTarget.style.color = "";
   }
+
   return (
     <div style={{ position: "relative" }} className="mt-32 ">
       <div>
@@ -36,7 +37,7 @@ export default function FirstProject() {
           style={{ fontFamily: "Inter" }}
           className="flex ml-40 justify-between  gap-36  "
         >
-          <div className="w-1/2">
+          <div className="w-1/2 ">
             <div
               onMouseEnter={mouseEnter}
               onMouseLeave={mouseLeave}
